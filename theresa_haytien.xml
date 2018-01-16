@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ecda.odd%20copy.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ecda="http://dsg.northeastern.edu/ecda/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Theresa: A Haytien Tale</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <ecda:hyperDiv>
+        <ecda:notes>
+           <note type="ecda" xml:id="ana_interp">
+              <interpGrp>
+                 <interp xml:id="food">references to items (either food or drink) that could be consumed</interp>
+                 <interp xml:id="flora">references to plants (e.g. trees, flowers, etc.)</interp>
+                 <interp xml:id="fauna">references to animals (e.g. birds, insects, etc.)</interp>
+              </interpGrp>
+              <interpGrp>
+                 <interp xml:id="punishment">references to items/actions used to punish people and/or instances of 
+                    punishment
+                 </interp>
+                 <interp xml:id="military">references to materials, persons, and events specifically related to
+                    military action
+                 </interp>
+              </interpGrp>
+           </note>
+           <note type="ecda">
+              <!-- Some notes on encoding practices for this document -->
+              <p>The encoding methodology for this document is based off of the encoding practices for the Early
+                  Caribbean Digital Archive. While this document reflects some established markup policies, the 
+                  ODD file for this project is still being customized.
+              </p>
+              <p>At present, the ECDA transcribes and encodes document from reproductions of the original text.
+                 This text, however, is a transcription. Therefore this encoded document does not follow ECDA 
+                 practices surrounding reproduction of rendition, preservation of page breaks, and 
+                 correction/regularization policies.
+              </p>
+              <list>
+                 <head>At the time of this document's creation, the ECDA recorded the presence of the following:</head>
+                 <item>Personal names using <gi>persName</gi>.</item>
+                 <item>Names of places using <gi>placeName</gi>.</item>
+                 <item>Names of geographical landmarks using <gi>geogName</gi>.</item>
+                 <item>Names of groups of people using <gi>name</gi>.</item>
+                 <item>References to anonymous persons using <gi>ecda:anonPers</gi>.</item>
+                 <item>References to commodities using <gi>ecda:commodity</gi>.</item>
+                 <item>References to plants/animals/food using <gi>ecda:flora</gi>, <gi>ecda:fauna</gi>,
+                    and <gi>ecda:food</gi>.
+                 </item>
+                 <item><gi>rs</gi> is used to record references to persons/places/groups that are not explicitly 
+                    named. These receive values on <att>type</att> of:
+                    <list>
+                       <item><val>person</val></item>
+                       <item><val>place</val></item>
+                       <item><val>persGroup</val></item>
+                       <item><val>properAdjective</val></item>
+                    </list>
+                    The <gi>rs</gi> element in this document is only used once per paragraph for each individual
+                    reference to a person/place. So, if a person is referenced by name, and then by title later in
+                    the paragraph, <gi>rs</gi> is not used. If a person is referenced by title or role three times 
+                    in a paragraph, but never by name, <gi>rs</gi> is used only in the <emph>first</emph> instance,
+                    and all other references remain unencoded
+                 </item>
+                 <item>The ECDA also encodes basic structural elements such as:
+                    <list>
+                       <item><gi>front</gi></item>
+                       <item><gi>body</gi></item>
+                       <item><gi>back</gi></item>
+                       <item><gi>div</gi>, where <gi>div</gi> is assigned a value for <att>type</att></item>
+                       <item><gi>p</gi></item>
+                       <item><gi>floatingText</gi></item>
+                    </list>
+                 </item>
+              </list>
+              <p>The ECDA is currently working on a large-scale contextual encoding project, which will allow
+                 for entries on people (both anonymous and named), places, bibliographic items, organizations,
+                 etc. A miniature, document-specific version of the ECDA's contextual encoding can be seen in
+                 the personography (<seg corresp="#personography">see the "personographical note"</seg>). For 
+                 this document, only references to persons are linked to a personography, and place/group
+                 -ographies are not recorded.
+              </p>
+              <p>In an attempt to track references to commodities, the ECDA has come up with a policy for encoding
+                 the presence of objects, both commodified and not, in texts. For this we use <seg><att>ana</att>
+                 and <gi>interp</gi>.</seg> Since many of the things we are tracking are either plants or animals,
+                 we added <gi>ecda:flora</gi> and <gi>ecda:fauna</gi> elements. <att>ana</att> can be applied to
+                 either of these elements, along with <gi>ecda:commodity</gi> and <gi>ecda:food</gi>. The <att>ana</att>
+                 attribute allows the ECDA to encode multiple descriptors of objects simultaneously, allowing for
+                 a larger number of possibilities for the markup. This document also contains <val>punishment</val>
+                 and <val>military</val> as values on <att>ana</att> to record the presence of these concepts within
+                 the document. Descriptions of all of the values for <att>ana</att> can be found in the 
+                 <seg corresp="#ana_interp">analysis and interpretation note.</seg>
+              </p>
+           </note>
+           <note type="personographical" xml:id="personography">
+              <listPerson>
+                 <person xml:id="theresa">
+                    <persName>
+                       <forename>Theresa</forename>
+                    </persName>
+                    <residence>
+                       Resident of
+                       <placeName>Haiti</placeName>
+                    </residence>
+                    <sex>female</sex>
+                 </person>
+                 <person xml:id="amanda">
+                    <persName>
+                       <forename>Amanda</forename>
+                    </persName>
+                    <residence>
+                       Resident of
+                       <placeName>Haiti</placeName>
+                    </residence>
+                    <sex>female</sex>
+                 </person>
+                 <person xml:id="paulina">
+                    <persName>
+                       <forename>Paulina</forename>
+                    </persName>
+                    <residence>
+                       Resident of
+                       <placeName>Haiti</placeName>
+                    </residence>
+                    <sex>female</sex>
+                 </person>
+                 <person xml:id="anon_brother">
+                    <ecda:anonPers/>
+                    <occupation>revolutionist leader</occupation>
+                    <residence>resident of
+                       <placeName>Haiti</placeName>
+                    </residence>
+                    <sex>male</sex>
+                 </person>
+                 <person xml:id="anon_lieutenant">
+                    <occupation>lieutenant</occupation>
+                    <sex>male</sex>
+                 </person>
+                 <person xml:id="louverture_1743">
+                    <persName>
+                       <forename>Toussaint</forename>
+                       <surname>L'Ouverture</surname>
+                    </persName>
+                    <birth when="1743-05-20"/>
+                    <death when="1803-04-07"/>
+                    <occupation>general</occupation>
+                    <residence>resident of
+                       <placeName>Haiti</placeName>
+                    </residence>
+                    <faith>Roman Catholic</faith>
+                    <sex>male</sex>
+                 </person>
+                 <person xml:id="inginac_0001">
+                    <persName>
+                       <forename>Joseph</forename>
+                       <forename>Balthasar</forename>
+                       <surname>Inginac</surname>
+                    </persName>
+                    <occupation>general</occupation>
+                    <residence>resident of
+                       <placeName>Haiti</placeName>
+                    </residence>
+                    <sex>male</sex>
+                 </person>
+                 <relation type="familial" name="mother-daughter" mutual="#paulina #theresa"/>
+                 <relation type="familial" name="mother-daughter" mutual="#paulina #amanda"/>
+                 <relation type="familial" name="sister" mutual="#amanda #theresa"/>
+              </listPerson>
+           </note>
+        </ecda:notes>
+     </ecda:hyperDiv>
+      <body>
+         <div type="entry">
+            <head>For the Freedom's Journal.</head>
+            <head type="main">Theresa,</head>
+            <head type="sub">A <rs type="properAdjective">Haytien</rs> Tale</head>
+            <p>During the long and bloody contest, in <placeName>St. Domingo</placeName> between the <rs type="persGroup">white 
+               man</rs>, who flourished at the child of sensuality, rioting on the miseries of his slaves; had the 
+               <rs type="persGroup">sons of Africa</rs>, who, provoked to madness and armed themselves against 
+               <rs type="properAdjective">French</rs> barbarity; <persName ref="#paulina">Madame Paulina</persName> was left a widow, unhappy
+               —unprotected, and exposed to all the horrors of the revolution. Not without much unhappiness, she saw that if 
+               she would save her life from the inhumanity of <rs type="persGroup"><rs type="place">her country</rs>'s enemy</rs>, 
+               she must depart from the endeared village of her innocent childhood; still dear to her, though now it was become 
+               a theatre of many tragic scenes. The once verdant plains, round its environs had been crimsoned with the blood of 
+               innocence, and the nature of the times afforded no security to the <rs type="persGroup">oppressed natives</rs> of 
+               <placeName>Saint Nicholas</placeName>.
+            </p>
+            <p>Famine which had usurped the place of plenty and happiness, with her associate security, were banished from the 
+               humble dwellings of the injured <name>Haytiens</name>.
+            </p>
+            <p>After much unpleasant reflections on her pitiable situation <persName ref="#paulina">Madame Paulina</persName> resolved to 
+               address a letter, soliciting the advice of <ecda:anonPers ref="#anon_brother">her brother</ecda:anonPers>, then at <placeName>Cape 
+               Marie'</placeName>, and a the head of a party of his patriot brethren, who like him, disdained slavery, and were
+               determined to live free men, or expire in their attempts for liberty and independence. But reason had scarce 
+               approved this suggestion of her mind, when suddenly she heard a simultaneous <seg ana="#military">volley of musketry</seg>, and the 
+               appalling roaring of <seg ana="#military">heavy artillery</seg> rumbling along the mountain's ridge, like terrifying thunders; to this 
+               distant warfare, the lapse of fifteen minutes brought a cessation, which announced, that on either side, many 
+               that were, had ceased to be. Silence having ensued, there was a stillness in the air. All at <placeName>Saint 
+               Nicholas</placeName>, desirous to know the issue of the combat, remained in doubtful anxiety.
+            </p>
+            <p>Each one's heart was the abode of fear and doubt, while the dense smoke, escaping the despot's fury, and 
+               evading the implacable resentment of <rs type="persGroup">those armed in the justice of their cause</rs>, was 
+               seen to overtop the dusky hills, winding its way upwards in sulphureous columns, as if, to supplicate at the 
+               Eternal's Throne, and plead the cause of the injured.
+            </p>
+            <p>The <name>French</name> in this combat with the <name>Revolutionists</name>, suffered much, both from the 
+               extreme sultriness of the day, and the courage of those with whom they contended; disappointed and harassed by 
+               the <name>Islanders</name>; they thought it a principle of policy, to <seg ana="#punishment">resort to acts of cruelty</seg>; and to 
+               intimidate them, resolved, that none of them should be spared; but that the sword should annihilate, or compel 
+               them to submit to their wonted degradations; and <placeName>St. Nicholas</placeName> was the unfortunate 
+               village, first to be devoted to the resentful rage of the cruel enemy. All the natives were doomed to suffer; 
+               the mother and the infant that reposed on her bosom, fell by the same sword, while groans of the sick served 
+               only as the guides which disovered them to the inhumanity of the inexorable, at whose hands they met a miserable
+               death.
+            </p>
+            <p>The sun was fast receding to the west, as if ashamed of man's transactions, boasting itself in the dark mantle 
+               of twilight, when <persName>Gen. Le' <!-- unsure what this means --></persName>, <seg ana="#military #punishment">fired the few dwellings,</seg> then 
+               remaining in the village. Misery was now <sic>grabbed</sic> <!-- corr garbed? --> in her most terrifying robes,
+               and terror possessed itself the heart of all, except the <name>French</name>, in whose hands were placed the 
+               <seg ana="#military #punishment">weapons of destruction</seg>.
+            </p>
+            <p>The intelligence of the defeat of the army recently stationed at <placeName>Cape Marie</placeName>, reached the
+               ears of the unhappy <persName ref="#paulina">Paulina</persName>, and with horror she heard that her beloved brother in his 
+               attempt to regain <placeName>St. Nicholas</placeName>, breathed out his valuable life in the cause of freedom, 
+               and for <rs type="place">his country</rs>. But it was now no time to indulge in grief—Safety was the object of 
+               the <rs type="persGroup">wretched villagers</rs>.
+            </p>
+            <p>To effect an escape from the horrors of this ominous night, was difficult in the extreme; for the passes leading 
+               out into the country were all occupied by the <seg ana="#military">enemy's troops</seg>, whe were not only vigilant, but relentless and 
+               cruel. <persName ref="#paulina">Madame Paulina</persName> apprehended her own danger, but her greatest solicitude was for the 
+               safety of <rs type="person" ref="#theresa #amanda">her daughters</rs>, who in the morning of life, were expanding like the foliages of the rose into elegance 
+               and beauty. She had kept them long concealed from the knowledge of the enemy, whose will she knew was their law, 
+               and whose law was injustice—the mother's wretchedness, and the daughter's shame and ruin. In happier days, when 
+               peace plessed her native island, she had seen a small hut, during a summer's excursion, in an unfrequented sot, 
+               in the delightful valley of <geogName>Vega Real</geogName>, and on the eastern bank of the beautiful
+               <geogName>Yuma</geogName>; and now she resolved if possible, to retreat thither with both her daughters.
+            </p>
+            <p>Necessity being the source of human inventions, was now ready to commune with her mind on subjects of moment, 
+               and to give birth to the events of its decision—and in the midst of the general uproar which the village now 
+               was—The shrieks of the defenceless, the horrible clashing of arms, and the expiring groans of the aged,
+               <persName ref="#paulina">Paulina</persName> hurried herself in the execution of her plans for escaping.
+            </p>
+            <p>With a <seg>feigned passport and letter</seg>, she ingeniously contrived to pass out of the village conducting her 
+               daughters, like the pious <persName type="allusion">Aeneas</persName>, through all the horrors, in which 
+               <placeName>St. Nicholas</placeName> was now involved.
+            </p>
+            <p>But though protected by the mantle of night Madame was hastening on her way to safety and quiet; she frequently 
+               would turn her eyes bathed with the dew of sorrow, and heave her farewell sigh towards her ill-fated village; 
+               and like <!-- is this an unclear/gap mark? --> when departing out of <placeName>Sodom</placeName>,
+               <persName ref="#paulina">Paulina</persName> prayed for mercy for the enemies of her country, and the destroyers of her peace. 
+               She and <rs type="person" ref="#amanda #theresa">her daughters</rs>, driven by cruel ambition, from their peaceful abodes were wretched. Their souls were 
+               occupied by fearful doubts and anxiety. Every whisper of the winds among the leaves of the 
+               <ecda:flora ana="#food">plantain</ecda:flora> and <ecda:flora ana="#food">orange trees</ecda:flora>, caused her 
+               daughters to apprehend the approach of danger, and she to heave the anxious sigh.
+            </p>
+            <p>The <ecda:fauna>green lizard</ecda:fauna> crossed not the road in the way to its hole, at the noise of the
+               fugitives feet, but they beheld through the shade of the night a body of the enemy; the distant glare of the 
+               firefly, was a light which pointed to the enemies camps; while the <ecda:fauna>bat</ecda:fauna> beating the 
+               <!-- ditto prev comment --> in its nocturnal ranges, often was the false messenger of danger to the fair 
+               adventurers. Every tree kissed by zephyrs, that ruffled its leaves, was an army approaching, and in the trunk of
+               every decored <ecda:flora>mahogany</ecda:flora>, was seen a <name>Frenchman</name> in ambush— not less alarming 
+               to the fugitives, were the ripe fruit that frequently fell to the earth. Then having turned to a by-path, 
+               <persName ref="#paulina">Paulina</persName> felt herself more secure; and with a soul oppressed with mingled grief and joy, she 
+               with maternal affection embraced <rs type="person" ref="#theresa #amanda">her daughters</rs>, and observed to them, that however 
+               just may be the cause which induces us to practice duplicity, or the laudable object which gives birth to
+               hypocrisy. Truth alone can make us happy, and prevent the Internal Judge of the human mind, filling us with 
+               fearful apprehensions, and painting to our imaginations the result which would attend detection. <seg>S.</seg>
+            </p>
+            <trailer>(To be Continued.)</trailer>
+         </div>
+         <div type="entry">
+            <head>Theresa</head>
+            <head type="sub">A <rs type="properAdjective">Haytien</rs> Tale</head>
+            <p>Morning had just began to peep forth, and the golden rays of the returning sun were seen to burnish the tops 
+               of the <seg>majestic cibiao mountians</seg>, when the bewildered adventurers were suddenly startled by the 
+               <seg ana="#military">shrill blast of a bugle</seg>; their surprise was not less than their wretchedness, when at no great distance, they 
+               beheld approaching them <seg ana="#military">a detachment of the enemies cavalry</seg>. At this unexpected crisis <persName ref="#paulina">madame 
+               Paulina</persName> overcome with fearful apprehensions, trembled lest she should be wanting in the discharge 
+               of her difficult undertaking. But it was now too late; she must either act well her part or be reconducted by 
+               <rs type="persGroup">the foe</rs> <!-- ? Nicholas -->, and there, after witnessing the destruction of those
+               for whose happiness, she was more concerned, than her own, <seg ana="#punishment">receive a cruel and ingominous death</seg>.
+            </p>
+            <p>The party of horsemen being now very near, she gave some necessary instructions to her daughters, and conducted
+               them onward with no little confidence in her success. The <ecda:anonPers ref="#anon_lieutenant" ana="#military">lieutenant,</ecda:anonPers> by whom
+               the <name>French</name> were commanded, observing her attired in the <seg ana="#military #sartorial">uniform of a <rs type="properAdjective">French</rs> 
+               officer</seg>, took her for what she so well affected to be—(a captain of the <rs type="properAdjective">French</rs> 
+               army) he made to her the order of the day, and enquired the time she left <placeName>St, Nicholas</placeName>, and 
+               whether conducting the two prisoners, (for <persName ref="#paulina">Paulina</persName> had the presence of mind to disguise her
+               daughters as such) she replied, and taking forth her letter, she handed it to the lieutenant. Succeeding thus far 
+               admirably, our adventuress was led to make some enquiries relative to the welfare of the 
+               <rs type="properAdjective">French</rs> troops, stationed west of <placeName>St. Nicholas</placeName>, and having 
+               collected much valuable information, they parted, and <persName ref="#paulina">Madame Paulina</persName> favoured by a ready 
+               address, and with much fortitude escaped death—conducting the dear objects of her tender solicitude far, from the
+               ill-fated village of their infancy.
+            </p>
+            <p>Being informed by the <ecda:anonPers ref="anon_lieutenant" ana="#military">lieutenant</ecda:anonPers>, that at the distance of a view miles, there were encamped a company of the 
+               <name>French</name>, she thought it judicious to avoid all public roads, and having turned into a think grove of 
+               the <ecda:flora>Pimento trees</ecda:flora>, she proposed to her daughters to rest in this spot until darkness again
+               should unfold her mantle.
+            </p>
+            <p>In this grove of quiet security, the troubled souls of the fugitives ceased partially to be oppressed with fear—the 
+               milky juice of the <ecda:food ana="#flora">cocoanut</ecda:food> allayed their thirst and moistened their parched
+               lips, and the delicious <ecda:food ana="#flora">orange</ecda:food>, and the luxurious <ecda:food ana="flora">mango</ecda:food>,
+               in spontaneous abundance, yielded a support to their nearly exhausted natures.
+            </p>
+            <p><persName ref="#paulina">Madame Paulina</persName> and her daughters were now seated under the shade of a majestic spreading 
+               <ecda:flora ana="#food">Guava</ecda:flora>. The day was fast declining, and though the heat of <name>July</name>
+               was intensely oppresive; in this secluded spot, the air was rendered freagrant with the variety of
+               <sic>arometic</sic> shrubs, that grew spontaneously in this grove of peace. The <ecda:fauna>hummingbird</ecda:fauna>
+               skipping capriciously from blossom to blossom, displayed its magnificent plumange, and for a while diverted the 
+               minds of <rs type="persGroup" ref="#paulina #amanda #theresa">the unhappy fugitives</rs> from grief and ominous forbodings; wearied and fatigued
+               by a journey which was not less tiresome than hazardous, their much exhausted natures, were greatly refreshed by 
+               the cool breeze which gave to their whole bodies a calm sensation, in which their souls soon participated and 
+               Madame and her eldest daughter were now lost in the arms of sleep, 
+               the kind restorer of vigour to the minds and bodies of men. All around was now still, save the 
+               <ecda:fauna>western woodpecker</ecda:fauna> was heard at times to peck the hollow trunk of some decayed tree, or 
+               the distant roaring of heavy cannon, which announced that all creative beings were born to enjoy peace, but man, who
+               stimulated by ambition, is more cruel than the beasts of the forest, which soil he ever renders fertile with the 
+               blood of his victims. But <persName ref="#theresa">Mademoiselle Theresa</persName>, the youngest of the three adventurers, greeted 
+               not sleep. The vigour of her body was indeed much exhausted, but the emotions of her mind were more active than ever;
+               she saw with the mind's eye the great services which might be rendered to her country; she brought to her
+               imagination the once delightful fields of her native <placeName>Hayti</placeName>, now dy'd with the blood of her 
+               countrymen in their righteous struggle for liberty and for independence.
+            </p>
+            <p>Not less did she contemplate the once flourishing plantations ruined and <!-- ?? Domingo --> once the 
+               <!-- grana yo --> the <placeName>West Indies</placeName> reduced to famine, now the island of misery, and the abode 
+               of wretchedness.
+            </p>
+            <p>It was but the last night, that she witnessed the most terrifying scenes of her life—when the shrieks of her dying 
+               friends made her apprehend justly what her own fate must be, should she fail to effect an excape from the village 
+               of her happiest days. <persName ref="#theresa">Theresa</persName> thought of the brave <persName type="allusion">St. Clair</persName>; she imagined 
+               she saw <rs type="person">her beloved uncle</rs> <seg ana="#punishment">weltering in his blood, and the barbarous <name>French</name> 
+               fixing his venerable head on a pole</seg>, and it exposed on a cross road, as the head of a rebel. She shuddered at this 
+               thought; her soul was subdued, and the fount of grief issued from her eyes in copious streams, bathing her febrile 
+               cheeks with dews of sorrow. <said rend="quotes">Why,</said> said she, <said rend="quotes">O, my God! hast thou 
+               suffered thy creatures to be thus afflicted in all thy spacious earth? Are we too thy children? And didst thou not 
+               cover us with this sable exterior, by which our race is distinguished, and for which they are contemned and ever 
+               been cruelly persecuted! O, my God—my God!—be propitious to the cause of justice—be near to the <name>Haytiens</name> 
+               in their righteous struggle, to obtain those rights which thou has graciously bestowed on all thy children. Raise up 
+               some few of those, who have been long degraded—give to them dominion, and enable them to govern a state of their 
+               own—so that the proud and cruel may know that thou art alike the Father of the native of the burning desert, and of 
+               the more temperate region.</said>
+            </p>
+            <trailer>(To be concluded in our next.)</trailer>
+         </div>
+         <div type="entry">
+            <head>Theresa</head>
+            <head type="sub">A <rs type="properAdjective">Haytien</rs> Tale (Continued.)</head>
+            <p>It was in the presence of <persName ref="theresa">Theresa</persName> that the conversation between <persName>M. L'Motelle</persName> and her heroic 
+               mother took place. <persName ref="#paulina">Madame Paulina</persName>, on her part leaving nothing undone, which might serve to 
+               accomplish the object for which she had been induced to practice duplicity; <persName>M. L'Motelle</persName> 
+               regarded her for what she really appeared to be; and unhesitatingly spoke of matters concerning the nature of the 
+               times; of the military and local situations of the <rs type="properAdjective">French</rs> troops; their condition 
+               and strength were topics of interest; and <persName ref="#theresa">Theresa</persName> learned that the distance to the camp of 
+               the brave <persName ref="#louverture_1743">Touissant, L'Ouverture</persName>, was a single league from the place where he communicated 
+               the intelligence. Seeming to be inattentive, she pensively bent her eyes towards the earth, listening the while as 
+               he unconsciously developed many military schemes, which were about being executed, and if successful, would, in all 
+               probability, terminate in the destruction of the <name>Revolutionists</name>, and, in the final success of the 
+               <rs type="properAdjective">French</rs> power in this island. These were invaluable discoveries, and could they be made 
+               known in due time to those against whose rights, their injustice was intended, it would not fail to give success to 
+               <rs type="properAdjective">Haytien</rs> independence, disappoint the arch-enemy, and aid the cause of humanity. But, 
+               alas! important as they were to the cause of freedom, by whom shall they be carried.
+            </p>
+            <p>Who shall reveal them to the <name><sic>Revoluists</sic></name>. No one interested was near, and they were in the
+               possession of none friendly to the cause of justice, except three defenceless ones. <persName ref="#theresa">Theresa</persName> 
+               herself must be the bearer, or survive only to witness them executed agreeably to the desires of the enemy. In what 
+               manner must she act? The salvation of her oppressed country to her, was an object of no little concern; but she also 
+               owed a duty to <rs type="person" ref="#paulina">that mother</rs>, whose tender solicitude for her happiness, could not be surpassed 
+               by any parent, and <rs type="person" ref="#amanda">a sister</rs> too, whom she tenderly loved, and whose attachment to her was 
+               undivided. Her absence from the grove, she was confidently assured, would be to them their greatest source of 
+               affliction; it would probably terminate the already much exhausted life of her dear mother, and complete the measure 
+               of <persName ref="#amanda">Amanda's</persName> wretchedness. Her own inexperience in the manner, she should conduct in an affair 
+               so important and hazardous, was an obstacle which in connexion with her sense of duty, and care for her mother's 
+               happiness, would deter her from embarking in it. She paused, then as if aroused by some internal agent, exclaimed 
+               <said>Oh, <placeName>Hayti</placeName>!—be independent, and let <persName ref="#theresa">Theresa</persName> be the unworthy 
+               sacrifice offered to that God, who shall raise his mighty arm in defence of thy injured children.</said> She drew 
+               from her bosom a pencil and wrote on a piece of bark of the <ecda:flora>Gourd tree</ecda:flora>, telling her mother 
+               and <persName ref="#amanda">Amanda</persName>, whither she was gone—her errand; begged that, they would not be unhappy on account 
+               of her absence; that they would remain at their place of peace and quiet, until she should return to them with an 
+               escort, who should conduct them to a safer retreat, and commit them to the protection of friend. This scroll, 
+               <persName ref="#theresa">Theresa</persName> pinned on her mother's coat, while she and <persName ref="#amanda">Amanda</persName> were yet indulging 
+               in repose, and like an heroine of the age of chivalry, she forsook the grove of <ecda:flora>Pimento</ecda:flora> and 
+               hastened on her way to the camp of <persName ref="#louverture_1743">L'Ouverture</persName>. She had scarce reached the third part of her 
+               journey when her mother dreaming, that one of her daughters had been borne off by an officer of the enemy, awoke from 
+               sleep and missing <persName ref="#theresa">Theresa</persName>, believed her dream prophetic. It was now that the keenest anguish 
+               filled her soul. <persName ref="#paulina">Paulina</persName> wished not to live. Life to a mother thus sorely afflicted, is misery—she
+               would go in search of the dear object of all her <sic>affliction</sic>, but where, she knew not. Keen is the grief of 
+               a mother, whose child has been forced from her. She is extremely wretched, and her affliction then, cannot be less 
+               severe, than it was when in the anguish and sorrow of her soul, the dear object of her tenderest solicitude was 
+               introduced into the world, to take its station among the Probationers for eternity. <persName ref="#amanda">Amanda</persName> was 
+               now awakened by the unhappy and pitiful grief of her bewildered mother. Hastily she enquired for her sister;
+               <persName ref="#paulina">Paulina</persName> in a burst of grief and wild despair, told her, she had been borne off while they slept; 
+               with half articulated accents, she related her ominous dream, and the fact was now realized in her absence from the 
+               grove. An icy chillness pervaded her whole nature—a dark mist covered her eyes—all the objects by which she was 
+               surrounded seemed to recede—her senses were bewildered, and <persName ref="#amanda">Amanda</persName>, unobserved by her mother, 
+               swooned and fell to the earth, But soon recovering, she beheld the piece of <ecda:flora>Gourd bark</ecda:flora> pinned 
+               to the skirt of her mother's coat—she hastened to un pin—it was the hand writing of <persName ref="#theresa">Theresa</persName>—they 
+               read it with avidity—joyful in the happy discovery, the mother and the daughter was perched upon their tongues, while 
+               the tears of mingled joy and sorrow poured from their eyes; The troubles of their souls were greatly subsided, but 
+               happiness could not be restored, until the success of <persName ref="#theresa">Theresa</persName> be ascertained, and she again be 
+               encircled in their arms.
+            </p>
+            <p>It was uncertain whether she could, in safety reach the camp of the <name>Revolutionists</name>; the roads were at all 
+               times travelled by reconnoitering parties of the <name>French</name>; and what could be the fate of the heroic 
+               <persName ref="#theresa">Theresa</persName>, if taken by any of them! How cruel would be her usage, particularly, if her intentions 
+               and the circumstances, which gave them birth be known. Death inevitable would deprive the world of one so fair, 
+               virtuous, and so noble.
+            </p>
+            <p>Such were the thoughts of <rs type="person" ref="#paulina">the mother</rs> and <rs type="person" ref="#amanda">sister</rs> of the noble adventuress. 
+               But while they were thus grieving, <persName ref="#theresa">Theresa</persName>, favoured by fortune, had safely arrived at the 
+               military quarters of the great <persName ref="#louverture_1743">Toussant</persName>: had communicated to the chieftain the object of her 
+               visit to his camp, and was receiving all the distinctions due her exalted virtue, and which her dauntless resolution 
+               so justly merited.
+            </p>
+            <p>The sun was now fast receding behind the lofty <ecda:flora>Cibao</ecda:flora>, whose rugged summits in the morning,
+               appeared burnished by its resplendent rays, and darkness was out-stretching <sic>here</sic> spacious mantle. The 
+               <ecda:flora ana="food">orange</ecda:flora> and <ecda:flora ana="#food">citron</ecda:flora> groves, and all the rich 
+               enameled luxuriance of torrid luxuries, now began to wear a sombre aspect, while the chattering 
+               <ecda:fauna>Paroquet</ecda:fauna> ceased to imitate man, and disturb the sweets of solitude, with prating garrulity, 
+               had retired to her roost on the sturdy <ecda:flora>logwood</ecda:flora>. Now it was, that <persName ref="theresa">Theresa</persName>,
+               under a strong military escort, left the general's camp of hospitality, retracing her steps towards the grove of 
+               <ecda:flora>Pimento</ecda:flora>, where, at her departure, she left her dear mother and <persName ref="#amanda">Amanda</persName>,
+               enjoying a calm repose; seated in a close carriage, her thoughts reverted to the deplorable state of her country; with 
+               a prophetic eye she saw the destruction of the <name>French</name>, and their final expulsion from her native island. 
+               She entreated the Creator, that he would bless the means, which through her agency, he had been pleased to put in the 
+               possession of her too long oppressed countrymen, and that all might be made useful to the cause of freedom. But turning
+               her thoughts toward her <rs type="person" ref="#paulina">mother</rs> and sister, <persName ref="#theresa">Theresa</persName> was conscious, that her 
+               absence from the grove could not fail to have given them extreme sorrow and unhappiness; her gentle nature recoiled at 
+               the recollection, and she gave way to a flood of tears. But recollecting again the important services, she had rendered
+               her aggrieved country and to the <rs type="properAdjective">Haytien</rs> people—the objects which prompted her to
+               disobedience, which induced her to overstep the bounds of modest, and expose to immediate dangers her life and sex. 
+               She felt that her conduct was exculpated, and self-reproach was lost in the consciousness of her laudable efforts to 
+               save <placeName>St. Domingo</placeName>. Her noble soul re-animated, recovered its wonted calm, as the ocean its quiet 
+               motion when the gentle breeze, and the returned sunshine, succeeded a tempestuous sky and boisterous winds.
+            </p>
+            <p>S.</p>
+            <trailer>(To be concluded in our next.)</trailer>
+         </div>
+         <div>
+            <head>Theresa</head>
+            <head type="sub">A <rs type="properAdjective">Haytien</rs> Tale. Concluded.</head>
+            <p>Fated to experience trials, she was now to be made more wretched than ever. <!--<persName> or <placeName>St. Lewis</placeName></persName>--> was now 
+               near the forward progressing company of his brethren in arms. He had been despatched to the 
+               <ecda:flora>Pimento</ecda:flora> grove, to acquaint <persName ref="#paulina">madame Paulina</persName> and <persName ref="#amanda">Amanda</persName>
+               of the approach of their dear <persName ref="theresa">Theresa</persName>. But, alas! by whom, or how was the doleful news to be 
+               reported to the heroine? Her mother and sister were not to be found at 
+               the place where she had left them: and who shall keep the shocking intelligence from her! Already she saw him 
+               approaching; he was now near. She observed the gloomy melancholy, which settled on his brow, that plainly foretold 
+               all were not well. She inquired into the result of his journey to the grove, and as an earthquake rends the bosom
+               of the earth, so the intelligence her gentle soul.
+            </p>
+            <p><said>Oh! <persName ref="#theresa">Theresa</persName>!—<persName ref="#theresa">Theresa</persName>!</said>said she in bitter grief, <said>thou art 
+               the murderer of a <rs type="person" ref="#paulina">mother</rs> and a loving <rs type="person" ref="#amanda">sister</rs>! Where! where shall I hide
+               me from the displeasure of heaven and the curse of man!—Oh, matricide! matricide! whither shalt thou flee from thy 
+               accusing conscience! In life I shall be wretched, and after death, oh! who shall release this soul from the bonds of 
+               self-condemnation! Oh my affectionate mother! Hast <persName ref="#theresa">Theresa</persName> rewarded thee thus, for thy tender 
+               solicitude for her was it for this, that thou saved me from the devouring flames of my native <placeName>St.
+               Nicholas</placeName>! Was it for this, that thou didst exert all thy ingenuity, and saved me from the uplifted sword 
+               of the enemy of <placeName>St. Domingo</placeName>!—Oh God! forgive this matricide! Forgive Theresa, who to save her 
+               country, sacrificed a mother and a sister—Wretched <persName ref="#amanda">Amanda</persName>! and thrice wretched is thy sister, 
+               who devoted thee to misery and death!</said>
+            </p>
+            <p>The body of escorts were now arrived at the <ecda:flora>Pimento</ecda:flora> grove—<persName ref="#theresa">Theresa</persName> 
+               sprang from her carriage; hastened to the place where her mother and sister reposed at her departure. She cried in 
+               the anguish of her soul, <said><rs type="person" ref="#paulina">My mother</rs>, my mother! where art thou!—come forth—let <persName ref="#theresa">Theresa</persName> 
+               embrace thee to her wretched bosom. Come <persName ref="#amanda">Amanda</persName>! dear <persName ref="#amanda">Amanda</persName>, come, and 
+               save thy loving sister from black despair! Where, cruel enemy, where have he conducted them! If he have murdered my 
+               dear mother and sister, let <persName ref="#theresa">Theresa</persName>but embrace their clayey bodies, and while I bless the 
+               enemies of the <name>Haytiens</name>!</said> But her grief was unheard by those, the loss of whom she bitterly 
+               deplored; solemn silence occupied the grove, interrupted only by intervals with the moans and sobs of the men of arms, 
+               who marked her anguish of soul, and were absorbed into pity. Whither now shall <persName ref="#theresa">Theresa</persName> bend her 
+               steps! No kind mother to guide her in life, or affectionate sister, to whom to impart the sorrow of her soul, or 
+               participate with in innocent pleasure; friendless and disconsolate, she was now left exposed to many evils, and at
+               a time too when the assiduous care of a mother was most essential in the preservation of her well being. 
+               <persName ref="#theresa">Theresa</persName> was on her way back to the camp of the kind <persName ref="#louverture_1743">Touissant L'Ourverture</persName> 
+               to claim his fatherly protection, and seek a home in the bosom of those, to whom she had rendered herself dear by her 
+               wisdom and virtue. The trampling of many <ecda:fauna ana="#military">horses</ecda:fauna> was heard rapidly approaching,
+               and bending its way towards the same direction. It was a party of the <rs type="properAdjective">French</rs> troops, 
+               and she was now to witness war in all its horors. The enemy of <rs type="properAdjective">Haytien</rs> freedom was now 
+               near. The war trumpet now sounded the terrible blast from the engagement, and the <name>Revolutionists</name> like 
+               <ecda:fauna>lions</ecda:fauna>, rushed on the the fight with a simultanous cry of <said>Freedom or Death!</said> The 
+               <name>French</name>, great in number, fought in obedience to a cruel master. The <name>Haytiens</name> for liberty 
+               and independence, and to obtain their rights of which they long have been unjustly deprived.
+            </p>
+            <p>The pass between the Mole and the village <placeName>St. Nicholas</placeName>, drank up the lives of hundreds in their 
+               blood. The <name>French</name> retreated with precipitance, leaving their baggage with their gasping friends, on the 
+               spot where victory perched on the standard of freedom: And now the conquerors had began to examine the property 
+               deserted by the vanquished. A faint but mournful groan issued from a baggage cart forsaken by the enemy; directed by 
+               the light of a flambeau, <persName ref="#inginac_0001">captain Inginac</persName> bent thither his nimble steps. Curiosity is lost in 
+               surprise—joy succeeds sorrow—the lost ones are regained. It was <persName ref="#paulina">Madame Paulina</persName> and 
+               <persName ref="#amanda">Amanda</persName>, the mother and sister of the unhappy <persName ref="#theresa">Theresa</persName>.
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

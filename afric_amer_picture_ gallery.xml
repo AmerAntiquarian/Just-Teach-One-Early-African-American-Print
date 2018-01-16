@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="jto_custom_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="jto_custom_schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Afric-American Picture Gallery</title>
+            <respStmt>
+               <resp>Text encoded by</resp>
+               <name>
+                  <forename>Elizabeth</forename>
+                  <surname>Hopwood</surname>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Distributed as part of the American Antiquarian Society's Just Teach One: Early
+               African American Print. </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>electronic edition</p>
+         </sourceDesc>
+         <sourceDesc>
+            <listPerson>
+               <person xml:id="frederick_douglass"/>
+               <person xml:id="attucks"/>
+               <person xml:id="george_washington"/>
+               <person xml:id="thomas_jefferson"/>
+               <person xml:id="touissant_loverture"/>
+               <person xml:id="edward_everett"/>
+               <person xml:id="ira_aldridge"/>
+               <person xml:id="thomas_onward"/>
+               <person xml:id="henry_clay"/>
+               <person xml:id="daniel_webster"/>
+               <person xml:id="john_calhoun"/>
+               <person xml:id="bernice"/>
+               <person xml:id="phillis_wheatley"/>
+               <person xml:id="selena_hastings"/>
+               <person xml:id="benjamin_banneker"/>
+               <person xml:id="alexander_hamilton"/>
+               <person xml:id="henry_sipkins"/>
+               <person xml:id="james_forten"/>
+               <person xml:id="hezekiah_grice"/>
+               <person xml:id="william_hinton"/>
+               <person xml:id="bird"/>
+               <person xml:id="burr"/>
+               <person xml:id="john_bowers"/>
+               <person xml:id="vanbrackle"/>
+               <person xml:id="george_vashon"/>
+               <person xml:id="watkins"/>
+               <person xml:id="corr"/>
+               <person xml:id="cornish"/>
+               <person xml:id="easton"/>
+               <person xml:id="rush"/>
+               <person xml:id="peter_williams"/>
+               <person xml:id="theodore_wright"/>
+               <person xml:id="bill"/>
+               <person xml:id="jd_esq"/>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>The encoding methodology for this document marks formatting and structural details,
+            including the following: <list>
+               <item>front</item>
+               <item>body</item>
+               <item>paragraphs</item>
+               <item>columns</item>
+               <item>page breaks</item>
+               <item>quotations</item>
+               <item>textual divisions</item>
+               <item>bylines</item>
+               <item>dates</item>
+               <item>section headers</item>
+               <item>emphasis</item>
+            </list> Person and place names were marked using <persName/> and <placeName/>.
+            Geographical landmarks were marked with <geogName/>. Persons named in the text were
+            given corresponding pointers in the listPerson. Full names (forenames and surnames) were
+            provided in the listPerson whenever possible. </p>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb n="52"/>
+            <dateline>Feb 1859</dateline>
+            <head>Afric-American Picture Gallery.</head>
+            <byline>BY ETHI0P.</byline>
+            <cb/>
+            <head><lb/>NUMBER I.</head>
+            <p>I always had a <hi rend="italic">penchant</hi> for pictures. From a chit of a boy
+               till now, my love for beautiful, or quaint old pictures has been unquenched. </p>
+            <p>If an ever abiding love for any branch of <hi rend="italic">Art</hi> is indicative of
+               a fitness to pursue it, then I should have been a painter. Even when so small as to
+               be almost imperceptible, I used to climb up, by the aid of a stool, to my mother's
+               mantle piece, take down the old family almanac and study its pictures with a greater
+               relish than ever a fat alderman partook of a good dinner including a bountiful supply
+               of the choicest wines. All this however, never made me a painter. Fate marked <cb/>
+               out a rougher, sterner destiny for me. But the habit of rambling in search of, and
+               hunting up curious, old, or rare and beautiful pictures, is as strong as ever. </p>
+            <p>It was in one of these rambles, that I stumbled over the Afric-American Picture
+               Gallery, which has since become one of my dearest retreats wherein to spend many an
+               otherwise weary hour, with profit and pleasure[.] </p>
+            <p>The collection is quite numerous, having been sought from every quarter of the
+               American continent, and some from abroad; and though as a <hi rend="italic">Gallery
+                  of Art</hi>, if not highly meritorious, still from its wide range of subjects and
+               the ingenuity with which <pb n="53"/><cb/> many of items are presented, it must, to
+               the lover and curious in such matters, afford much for amusement, and to the careful
+               observer and the thinker much that is valuable and interesting. </p>
+            <p>In style and excellence these pictures vary according to the fancy or skill of the
+               artist. Some are finely executed, while others are mere rough sketches. Some are in
+               oil, some in water colors, and India Ink shadings, a few statues, statuettes, and a
+               few Crayons and Pencilings possessing a high degree of merit; others are mere
+               charcoal sketches and of little worth beyond the subjects they portray. </p>
+            <p>But without pursuing this general outline further, let the reader, with me enter into
+               this almost unknown Gallery. Well, here we are, and looking about us. </p>
+            <p>The first thing noticeable, is the unstudied arrangement of these pictures. They seem
+               rather to have been put up out of the way, many of them, than hung for any effect. </p>
+            <p>The walls are spacious, and contain ample room for more, and, in many instances,
+               better paintings; and many niches yet vacant for busts and statues; and just here,
+               let me make an humble petition in behalf of this our newly discovered
+               Gallery.&#x2014;It is that generous artists, will, at their convenience, have the
+               goodness to paint an occasional picture, or chisel a statue or bust, and we will be
+               sure to assign it to its appropriate place. But let us take a survey, and speak only
+               of what strikes us most forcibly in our present mood.</p>
+         </div>
+         <div>
+            <head>PICTURE NUMBER 1.—THE SLAVE SHIP. </head>
+            <p>This picture hangs near the entrance, on the south side of the Gallery, and in rather
+               an unfavorable light.</p>
+            <p>The view is of course <placeName>Jamestown harbor, Virginia</placeName>, in 1609, and
+               has all the wild surroundings of that portion of our country at that period; the
+               artist having been faithful even to every shrub, crag and nook. Off in the mooring
+               lays the <hi rend="italic">slave ship</hi>, Dutch-modeled and ugly, even hideous to
+               look upon, as a slave-ship ought to be. On the <cb/> shore is a group of emaciated
+                  <hi rend="italic">Africans</hi>, heavily manacled, the first slaves that ever trod
+               the American continent; while in the fierce and angry waters of the bay, which seem
+               to meet the black and dismal and storm-clad sky, is seen a small boat containing
+               another lot of these human beings, just nearing the shore. </p>
+            <p>If the artist's general conception of, this picture may be regarded a success, in its
+               details, beyond all question, this is its crowning point. The small boat struck by,
+               and contending with a huge breaker, is so near the shore that you can behold, and
+               startle as you behold, the emaciated and death-like faces of the unfortunate victims,
+               and the hideous countenances of their captors; and high and above all, perched upon
+               the stern, with foot, tail and horns, and the chief insignias of his office, is his
+               Satanic Majesty, gloating over the whole scene. </p>
+            <p>What is more truthful than that the devil is ever the firm friend and companion of
+               the slave ship? </p>
+         </div>
+         <div>
+            <head>PICTURE NUMBER 2.—THE FIRST AND THE LAST COLORED EDITOR.</head>
+            <p>This small, but neat picture hangs on the north side of the gallery; and though
+               simple in its details, is so well executed that it has much attracted me. </p>
+            <p>The Last Colored Editor, quite a young man, with a finely formed head and ample
+               brow&#x2014;thoughtful, earnest, resolute&#x2014;sits in chair editorial, with the
+               first number of the Freedom's Journal, the first journal ever edited by, and devoted
+               to the cause of the colored man in America, held in one hand and outspread before
+               him, while the other, as though expressive of his resolve, is firmly clenched.</p>
+            <p>Surrounding him are piles of all the journals edited by colored men from the
+               commencement up till the present, among which the Freedom's Journal, Colored
+               American, People's Press, North Star, and <persName ref="#frederick_douglass"
+                  >Frederick Douglas</persName>'s paper are the more prominent. The First Editor is
+               represented as a vener<pb n="54" type="wordbreaking"/>
+               <cb/>able old man, with whitened locks and placid face, leaning on a staff, and
+               unperceived by the Last Editor, is looking intently over his shoulder on the
+               outspread journal. </p>
+            <p>It is his own first editorial, and the first ever penned and published by a colored
+               man in <placeName>America</placeName>. The scene is the linking together of our once
+               scarcely hopeful past with the now bright present.</p>
+         </div>
+         <div>
+            <head>PICTURE NO. 3—THE FIRST MARTYR OF THE REVOLUTION. </head>
+            <p>This is a head of <persName ref="#attucks">Attucks</persName>. It may not be
+               generally known, and it may not be particularly desirable that the public should
+               know, that the First Martyr of the American Revolution was a colored man; that the
+               first bosom that was bared to the blast of war was black; the first blood that
+               drenched the path-way which led up to American liberty, was from the veins of a
+               colored man. </p>
+            <p>And yet such is the fact; and the artist has done a service in the execution of this
+               head. It hangs at the north east end of the Gallery, and is a fine likeness of a
+               bold, vigorous man,&#x2014;just such, as would be likely to head a revolution to
+               throw off oppression. May the name of <persName ref="#attucks">Attucks</persName> and
+               the facts connected therewith never perish.</p>
+         </div>
+         <div>
+            <head>PICTURE NO. 4. SUNSET IN ABBEOKUTA.</head>
+            <p>This is a fine painting. The landscape is rich, varied, beautiful. The sky has all
+               the warmth of hue and softness of tint, and all that gorgeousness (changing seemingly
+               with every instant,) for which an African sky is so much noted. No rainbow with us,
+               in its full splendor, is so variegated or so wide in its range of colors. </p>
+            <p>The last touches of the artist's pencil has made the glow of the coming evening to
+               softly spread itself over here and there a dusky inhabitant reclining upon the banks
+               of an unrippled lake. The effect is fine, and the <cb/> whole scene is so charming
+               that one could almost wish to be there. </p>
+         </div>
+         <div>
+            <head>PICTURES 5 AND 6—THE UNDER GROUND RAILROAD.</head>
+            <p>In these two pictures the artist is certainly quite up to our idea. They are of large
+               size and represent both the Southern and Northern portions of that mysterious road.
+               They hang beside each other on the south side of the Gallery and are marked A and B.
+               I would suggest, that B be changed over to the north wall, as a more appropriate
+               place. Picture A, or the south view represents a dark road leading through a darker
+               forest, along which is seen merely some twenty pairs of fine stalwart human feet and
+               legs&#x2014;male and female&#x2014;of all sizes, hurrying northward. Every muscle and
+               limb indicates firmness and resolution.</p>
+            <p>The scene is night-time, and far distant through the forest is faintly seen the north
+               star&#x2014;small but bright and unfailing, and to the fugitive, unerring. </p>
+            <p>Picture B on the north view consists of some twenty bold heads and fine robust faces,
+               each of which is lit up with a joy no pen can portray, and nothing but the pencil of
+               the master could have reached. The exclamation of each must be <said>we have found
+                  it!!!</said>
+            </p>
+            <p>In the foreground is a lake and the back ground is a Canadian forest, through which
+               here and there you can perceive a small rustic cottage. Both of these pictures
+               sustain well that air of mystery which envelopes the Under Ground Rail Road.</p>
+            <p>In the first view we have but the feet and legs; indicating the mysterious manner in
+               which those feet and legs move bodies towards freedom, or pass along that undefined
+               and undefinable Road that leads to liberty.</p>
+            <p>There is another thought. The head, the recognized seat of the mind, is useless to
+               the slave, or, if of service to him, this thinking apparatus is not <pb n="55"/>
+               <cb/> his own ; it belongs to his owner; hence he makes use of his feet and legs, or
+               the physical machinery; while in the second view, at the northern end of this
+               undefinable Road, where <cb/> liberty is, the head or mental part is presented to
+               view. The slave,&#x2014;the chattel,&#x2014;the thing is a <hi rend="italic"
+               >man</hi>.</p>
+            <p> (<hi rend="italic">To be Continued.</hi>)</p>
+         </div>
+         <div>
+            <pb n="87"/>
+            <dateline>MAR 1859</dateline>
+            <head>Afric-American Picture Gallery.—SECOND PAPER.</head>
+            <byline>BY ETHI0P.</byline>
+            <head>PICTURE VII. TOUISSANT L'OVERTURE.</head>
+            <cb/>
+            <p>Pictures are teachings by example. From them we often derive our best lessons. A
+               picture of a once beloved mother, an almost forgotten grandfather whose image perhaps
+               we bear, or a long lost child, once the centre of our affections; such a picture
+               occasionally taken down from its hiding-place, and looked at, calls up associations
+               and emotions, and produces troops of thought that paint the memory afresh with hues
+               the most beautiful, touching, beneficial and lasting. A picture of a great man with
+               whose acts we are familiar, calls up the whole history of his times. Our minds thus
+               become re-impressed with the events and we arrive at the philosophy of them. </p>
+            <p>A picture of <persName ref="#george_washington">Washington</persName> recalls to mind
+               the American Revolution, and the early history of the Republic. A picture of
+                  <persName ref="#thomas_jefferson">Thomas Jefferson</persName> brings before the
+               mind in all its scope and strength that inimitable document, the Declaration of
+               Independence; and in addition, carries us forward to the times, when its broad and
+               eternal principles, will be fully recognised by, and applied to the entire American
+               people. I had these conclusions forced upon me by looking not upon either the picture
+               of Washington or Jefferson in the gallery. Far from it; but by a most beautiful
+               portrait of one of the greatest men the world ever saw&#x2014;<persName
+                  ref="#touissant_loverture">Touissant L'Overture</persName>. This painting hangs in
+               the south east corner of the Gallery in a favourable position and in good light as it
+               ought; as it portrays the features of one of God's and Earth's noblemen long since
+               retired.</p>
+            <cb/>
+            <p>Far be it from me to venture to a description of either the picture or the man. I
+               have no pencil and no pen with which I can do it. Some future historian in other
+               times, will yet write the name of <persName ref="#touissant_loverture">Touissant L'
+                  Overture</persName> higher and in purer light than that of any man that has lived
+               up to to-day. But the special point to which I wish to call attention, and upon which
+               I may venture a remark, is the long and interesting train of historical facts in
+               relation to <placeName>Hayti</placeName>, that gem of the sea, this portrait
+               associates in the mind of the intelligent beholder. To say nothing of him who led the
+               breathings of this people after liberty; the breaking in pieces the yoke that galled
+               them their heroic struggles, the routing finally and utterly from the soil their
+               oppressors; their almost superhuman efforts thereafter, to rise from the low state in
+               which the degradation of slavery and chains had placed them and their final triumph
+               over every obstacle; in fine the whole history from first to last of this Island and
+               this people is so vividly brought before the mind, by merely this likeness of the
+               inimitable <persName ref="#touissant_loverture">Touissant L'Overture</persName>, that
+               it is re-impressed with the extraordinary, <hi rend="italic">useful and touching
+                  lesson it teaches.</hi></p>
+         </div>
+
+         <div>
+            <head>PICTURE VIII.&#x2014;SOLOUQUE AND HIS COURT.</head>
+            <p>If any thing else was needed to carry the mind over the field of Haytian events, and
+               complete our history; or in leading us for the first time to study that history, this
+               additional picture ought to be sufficient. It is of largest size, consisting of
+               portraits of the sable Emperor and the magnates that move round his Imperial person;
+               and hangs <pb n="88"/> beside that of <persName ref="#touissant_loverture"
+                  >L'Overture</persName>. The various descriptions given me of these persons lead me
+               to believe, that these likenesses, unlike many that have been gotten up for the <hi
+                  rend="italic">American prejudice Market</hi>, are genuine and up to the originals.
+               That of the Emperor's is superior as he is known to be a superior looking man. </p>
+         </div>
+         <div>
+            <head>PICTURE IX.&#x2014;MOUNT VERNON.</head>
+            <p>Our artist must have taken time by the forelock in the execution of this picture; as
+                  <placeName>MOUNT VERNON</placeName> has become of late the great popular theme of
+               the American people. <placeName>Mount Vernon</placeName> just now enters into
+               everything. It has something to do with every spring of the machinery of American
+               society; social, political, and religious. It is <placeName>Mount Vernon</placeName>
+               in the pulpit, <placeName>Mount Vernon</placeName> on the rostrum, <placeName>Mount
+                  Vernon</placeName> from the Press, <placeName>Mount Vernon</placeName> from every
+               lip. </p>
+            <p>The boys in the streets busily cry out <placeName>Mount Vernon</placeName>; the
+               fashionable young belle simpers <placeName>Mount Vernon</placeName>.</p>
+            <p><placeName>Mount Vernon</placeName> exclaims the breast-laden patriot;
+                  <placeName>Mount Vernon</placeName> echoes the good old ladies, <placeName>Mount
+                  Vernon</placeName> is piped, <placeName>Mount Vernon</placeName> is harped;
+                  <placeName>Mount Vernon</placeName> is danced; <placeName>Mount Vernon</placeName>
+               is sung. Even men walk by the aid of <placeName>Mount Vernon</placeName> canes,
+               manufactured from some of its decaying relics. And what is <placeName>Mount
+                  Vernon</placeName>? </p>
+            <p><placeName>Mount Vernon</placeName> as the readers must know is a spot of earth
+               somewhere in <placeName>Virginia</placeName>, and once the Home of the Father of his
+               Country. How careful ought we to be, then, in word or deed about <placeName>Mount
+                  Vernon</placeName>. </p>
+            <p>I must plead in excuse, therefore, that in the conception of this picture, the Artist
+               has simply failed; if not in faithfulness to the original, certainly in gratifying
+               the popular American feeling. The Picture hangs on the south side of the Gallery, and
+               in excellent light. </p>
+            <p>It is of largest size, exhibiting the grounds, the mansion, out-house, slave huts and
+               all; once planned, laid out, and erected with so much care by <cb/><persName
+                  ref="#george_washington"><hi rend="italic">Washington</hi></persName>; but now
+               alas, all in a state of dilapidation and decay. Decay is written by the Artist's
+               pencil more legibly than in letters, on everything. &#x2014;On the house top, on the
+               door sill is written decay. On the chimney, on the gables, on the eaves, is written
+               decay. The consuming fingers of decay and dilapidation mark each and every out
+               house.&#x2014;Every old slave hut, like so many specters shadows forth decay.
+               &#x2014;Decay stands staring in the gate-ways, staring in the porches, staring in the
+               cellars.&#x2014; The very wind which bends the here and there scattering tree-tops,
+               (land marks of the past) seem to creak through the many visible crevices of the Old
+               Mansion and sigh decay, decay! decay!! </p>
+            <p>I never saw <placeName>Mount Vernon</placeName>; and as I gaze upon this Picture I
+               ask myself is it true? Is this the home of the <hi rend="italic">Father of his
+                  Country?</hi> Is it, that, every thing <persName ref="#george_washington"
+                  >Washington</persName> possessed should so perish? Or, so perish the all, that we
+               should have left to us, but his name; and yet with a tendency to forget names however
+               great, I am at a loss to know how we shall preserve even the name of <persName
+                  ref="#george_washington">Washington</persName> many years longer. </p>
+            <p>But there is another feature in this Picture besides the stern solemn passing away,
+               that I desire to direct attention to. The Artist has located, and I suppose correctly
+               enough, on the banks, where sluggishly glides the <geogName>Potomac</geogName>'s
+               waters, the TOMB OF <persName ref="#george_washington">WASHINGTON</persName>. </p>
+            <p>The first thing that here arrests the eye is the recently dug up coffin of <persName
+                  ref="#george_washington">Washington</persName>; just behind which stands the ghost
+               of his faithful old slave and body servant; while in front, a living slave of to-day
+               stands, with the <hi rend="italic">bones</hi> of <persName ref="#george_washington"
+                  >Washington</persName> gathered up in his arms, and labelled <q>'For Sale'</q>
+               <q>'Price $200,000 ; this negro included.'</q>
+               <q>'Money wanted.</q>"&#x2014;A number of other slaves, men, women, and children, are
+               placed in a row along the bank just beyond, bearing about the neck of each the
+               following inscription: <hi rend="italic">These negroes for sale. Money
+               wanted.</hi>'</p>
+            <pb n="89"/>
+            <p>Proceeding from the Old Mansion to the <hi rend="italic">Tomb</hi>, are two elderly,
+               portly, aristocratic looking gentlemen, bearing unmistakable evidences of being the
+               present proprietors of the <placeName>Mount Vernon</placeName> estate, and celebrated
+               relatives of the great Virginian, and Father of his Country; and a noted son of
+               Massachusetts. These gentlemen are followed towards the tomb by a few pious looking
+               old ladies. </p>
+            <p>Such is but a faint description of this picture of <placeName>Mount
+                  Vernon</placeName>; and as obscurely as it is hung in our midst, <persName
+                  ref="#edward_everett">Edward Everett</persName> the distinguished limner of
+                  <persName ref="#george_washington">Washington</persName> should see it, and if
+               any, point out its defects. </p>
+            <p>Our Gallery begins to draw. Numerous have been the inquiries about it, and two
+               individuals who after sundry searchings and pryings have found out our <hi
+                  rend="italic">secret</hi>.&#x2014;Our pleasant hiding-place, where we have so
+               often and so long shut up ourselves from the blast and chill of the world, is no
+               longer our own. The luxury of solitude is even gone, gone forever!</p>
+            <p>Just as I had finished the sketch of the last picture, (luckily for me) and pointed
+               my pencil for another, the little brown-faced boy in attendance, bowed in, to my
+               great surprise, a very respectable appearing gentleman&#x2014;a little seedy, though
+               very genteel with all notwithstanding&#x2014;and not Anglo African, but Anglo-Saxon,
+               or Anglo American or something of that sort; botheration, I never could get the hang
+               of these Angloes! but no matter, he was genteel in manner and intellectual in
+               appearance. ' </p>
+            <p>'<said>I read your Picture Sketches in the last number of the Anglo-African Magazine,
+                  and have sought out your Gallery,</said>' said he. <said>'Well, what do you think
+                  of it?'</said> said I. <said>'Your Gallery? well, I must examine it,&#x2014;but
+                  your Magazine! !!'</said>
+               <said>'Magazine,'</said> rejoined I, <said>'yes, that is the question.'</said>
+               <said>'Your magazine,'</said> said he (not regarding the interruption) <said>'is
+                  uncalled for.'</said> I started up. <said>'I am a well-known friend to your
+                  race.'</said> I started a little more up right, and said, <said>'my dear sir, if
+                  you <cb/></said><said>mean Anglo-Africans, well; but do not say <q>your
+                  race.</q>'</said> here I brought my fist down on the table, added&#x2014;
+                  <said>there is but one <hi rend="italic">race of men on the face of the earth, sir
+                     ! ! !'</hi></said> Our visitor colored a little. <said>'I was about to
+                  remark,'</said> he said, <said>'that if your men had capacity they might write for
+                  our anti-slavery journals and other ably conducted magazines in the country, such
+                  as <title rend="none">Harpers'</title> or the <title rend="none">Atlantic
+                     Monthly</title>. It would be more creditable. You don't want a separate
+                  magazine and pen up your thoughts there.'</said>
+               <said>'The <q>"Anglo-African"</q> is not such as you designate it,'</said> said I,
+                  <said>'it is simply headed by colored men, but excludes no man on account of his
+                  color from its pages, and it were unfortunate,'</said> I said this with emphasis,
+                  <said>'that since colored men are the oppressed, it were unfortunate that every
+                  anti-slavery journal in the country is not edited by colored men.'</said> This was
+               a little too sharp, and our new friend colored more deeply than before. <said>'What
+                  do you think of that statue of <persName ref="#ira_aldridge">Ira
+                     Aldridge</persName>, just over on the other side of the Gallery, there?'</said>
+               said I, as anxious to turn the conversation as he was. He examined it a few moments
+               and said, '<said>It is quite a clever attempt for&#x2014;'</said> he was about to add
+               something more, but suddenly turning asked who modelled it. <said>'All I
+                  know,'</said> said I, <said>'is, <persName ref="#ida_aldridge">Mr.
+                     Aldridge</persName> went from this country to <placeName>Europe</placeName>
+                  when quite a young man, took to the stage, his color being no bar to eminence
+                  there, and step by step he has ascended until now he stands on the very highest
+                  round of the actor's ladder. He stands today, as an actor, the most renowned in
+                  the world. The statue before us I believe was model led in Europe.'</said> Our
+               visitor hastily glanced at it again, and pronounced it excellent, adding a few
+               criticisms about its breadth of forehead and a few doubts about its want of faithful
+               ness to the original, he passed around the Gallery. I sat down again to make a sketch
+               of this plaster statue of <persName ref="#ida_aldridge">Aldridge</persName>, the
+               world-renowned actor (by the way, an excellent model of him as <pb n="90"/>
+               <cb/> Othello), when our little brown-faced boy bowed his head in the doorway, and
+               announced this time a lady&#x2014;a colored lady. I laid down my pencil, and though
+               much confused, tried my hand at politeness. The lady, plainly, but neatly attired and
+               rather stiff, was all politeness, but it was of that kind that first chills, and then
+               freezes you. Eye-glass up, and with sarcastic smile, she hurriedly scanned several of
+               the pictures. Her air was a dissatisfied one in the outset; she had come to find
+               fault and quarrel with our poor Gallery from the first. I felt this, and determined
+               on revenge. <said>'What nonsense is all this!'</said> she exclaimed, and proceeded to
+               criticise quite freely. I caught up my pencil, and wrote: <said>'An old maid; a
+                  little dimmed in sight; somewhat faded, but a few good traces of beauty yet left:
+                  face a little too sharp, and eye too restless and a little prudish with all: quite
+                  ready in speech, but rather too second-hand in opinion.'</said> I stopped. A kind
+               of nervous feeling came over me, and I began to fumble for my knife, to scratch the
+               words <hi rend="italic">old</hi>, <hi rend="italic">dimmed</hi>, and all the other
+               unpleasant adjectives I had thrown into my sentences, for in truth she was not old,
+               though I learned afterwards <cb/>she was a maid. My lady friend perceiving my
+               embarrassed manner, laid it to her own superciliousness, and her eye dilated at the
+               supposed effect and proceeded freely with her criticisms. My old revenge came back
+               upon me: <said>'Madam, or mam,'</said> said I at last, <said>'these pictures, as a
+                  whole, make no claim to the high artistic merit you look for in them, though I
+                  think some of them rather clever as works of <hi rend="italic">art</hi>; but they
+                  serve as simple reminders of what the people of color were, now are, and will yet
+                  be. What they have gone through, are going through, and have yet to go
+                  through.'</said> This last speech of mine had the desired effect. With glass still
+               to her eye, she passed on in her strictures, and on, too, in the Gallery. I adjusted
+               myself again to make the sketch of <persName ref="#ida_aldridge"><hi rend="italic"
+                     >Aldridge</hi></persName>, and taking position, looked up for the purpose. Lo,
+               and behold! my visitors were both gone. I was alone. My paper for my intended sketch
+               was scribbled out, and my pencil whittled away. Bothered and puzzled, I snatched up
+               my hat and started for the door, bidding the boy at the same time to bar it against
+               all further intruders, I rushed into the street.</p>
+         </div>
+         <div>
+            <pb n="100"/>
+            <dateline>APR 1859</dateline>
+            <head>Afric-American Picture Gallery. THIRD PAPER.</head>
+            <byline>BY ETHI0P.</byline>
+            <cb/>
+            <head>PICTURE NO. X.—A NEW PICTURE.</head>
+            <p>Our gallery Boy who barred its doors so firmly against intruders, has just entered
+               the Gallery with his own likeness, and desires that it may be hung up ; and, for more
+               reasons than one he shall be gratified. The picture comes to us in mien pleasant,
+               smiling, and as fresh as nature itself. </p>
+            <p>This boy <persName ref="#thomas_onward"><hi rend="italic">Thomas
+                  Onward</hi></persName> (I call him <persName ref="#thomas_onward">Tom</persName>
+               for shortness,) though he has seen all of life—yea more, is not an <hi rend="italic"
+                  >Old Tom</hi> by any means; nor an <hi rend="italic">Uncle Tom</hi>, nor a <hi
+                  rend="italic">Saintly Tom</hi>, nor even what is commonly deemed a good Tom; but a
+               shrewd little rogue, a real live <hi>Young Tom</hi>, up to all conceivable mischief
+               and equal to all emergencies. He is a perfect model of a little fellow in his way,
+               and a fair representative of his class. Sound in limb, symmetrical in form and robust
+               in health, jovial, frank, easy mannered and handsome-infinitely so compared with even
+               the likeness I hold, one would scarcely conclude that this boy has come down to us
+               through nearly three hundred years of hard trial.</p>
+            <cb/>
+            <p>And yet it is true. Such is his history. He was almost whipped into existence,
+               whipped into childhood, whipped up to boyhood. He has been whipped up to manhood,
+               whipped down to old age, whipped out of existence. He was toiled into life; he has
+               been toiled through life; toiled out of life. He has been robbed of his toil, robbed
+               of his body, robbed of all but his soul.</p>
+            <p>He has been hated for what he was, hated for what he was not, and hated for what he
+               ought to have been. He has been dreaded because of his ignorance, and dreaded because
+               of his knowledge, dreaded for his weakness, dreaded for his strength. </p>
+            <p>Noble, innocent boy! hadst thou been able to remember a tithe of the hard things done
+               to thee ; or hadst thou known a tithe of the hard things said of thee ; or of the
+               hard feelings entertained towards thee, it would be difficult to conjecture the
+               result. But out of all these mountains of dust and ashes without one bit of sackcloth
+               upon thee, hast thou come forth fresh, smiling and free. <hi rend="italic">Tom, Tom !
+                  ! !</hi>
+               <pb n="100"/><cb/>Who shall write a fitting apostrophe to thee and thy rising
+               fortunes. </p>
+            <p>What sorry figures do the hard, grave, iron, half savage and half barbarous faces of
+                  <persName ref="#george_washington">Washington</persName> and <persName
+                  ref="#thomas_jefferson">Jefferson</persName>, of <persName ref="#henry_clay"
+                  >Clay</persName>, <persName ref="#daniel_webster">Webster</persName> and <persName
+                  ref="#john_calhoun">Calhoun</persName>, present beside the fine expressive
+               likeness of this rising little fellow. The American Nation, if it can, may try its
+               hardened hand yet a few centuries longer upon our live little <persName
+                  ref="thomas_onward">Tom</persName>; but it will hardly mould him to their liking.
+               Like gold ore he will lose but the alloy and become brighter and brighter in the oft
+               passing through the furnace of their oppression. </p>
+         </div>
+         <div>
+            <head>PICTURE NO. XI.—THE BLACK FOREST.</head>
+            <p>Two days after I had hung up the picture of the Gallery boy <persName
+                  ref="thomas_onward">Tom</persName>, I sat examining another marked the <hi
+                  rend="italic"><geogName>Black Forest</geogName></hi>, which from its grand and
+               beautiful scenery, dark back ground shadows and the air of profound mystery which
+               seemed to pervade it, so attracted me that I intended to make a sketch, but my mind
+               turned towards the boy and my eyes towards the portrait, and I sat gazing upon its
+               beauty, and meditating upon its superior excellence as a <hi rend="italic">Work of
+                  Art</hi>, and the probable whereabouts of the unknown Artist, and also upon the
+               destiny of the Boy himself, when his shrill, merry, musical voice rung out: <said>'a
+                  letter sir.'</said>
+            </p>
+            <p>Taking it from his hand, I instantly broke the seal, and by a single glance
+               discovered it was from an unknown source, and on further perusal that it was from the
+                  <hi rend="italic"><geogName>Black Forest</geogName></hi>; a place and name then
+               wholly unknown to me, except as the landscape painting just alluded to in the
+               gallery. The purport of the letter was an invitation to visit this inhabited or
+               uninhabited part of the globe. Let me give the reader one paragraph of this curious
+               epistle. It ran thus: <hi rend="italic"><q>'Come over to the <geogName>Black
+                        Forest</geogName> and examine some of the Pictures and other curiosities
+                     there. Two days journey by stage and by foot for a man, and none others are
+                     asked.'</q></hi> As it is no part of my purpose to disclose the precise
+               locality of the Black <cb/>Forest, nor fully the manner of people dwelling there, nor
+               yet wholly their doings, I shall reveal no more of the contents of this letter than
+               to say it pointed out the route so minutely that no careful observer could mistake
+               it; while without such a description, the keenest mind could not by any process
+               penetrate even the recesses of the <geogName>Black Forest</geogName>, much less the
+               precise spot in question. <q>'Come over to the <geogName>Black Forest</geogName> and
+                  examine some of the Pictures and other curiosities there. Two days journey by
+                  stage and by foot for a man, and none others are asked!'</q></p>
+            <p>This paragraph I read over a dozen times ere I laid down the letter, and then all my
+               old love of adventure, of ramble and of picture hunting came back upon me. </p>
+            <p>Filled now with new thoughts and new projects, I repaired to my lodgings, wrote a few
+               hasty lines to a friend, and retired for the night. But the sentences <q>'Come over
+                  to the <geogName>Black Forest</geogName>. Examine some pictures and other
+                  curiosities. Two days journey by stage and by foot for a man. None others are
+                  asked,'</q> had fastened themselves in my mind and insisted so pertinaciously in
+               remaining there, that it was with unusual effort sleep could take entire possession
+               of me.</p>
+            <p>Early next morning I commenced preparations for my journey, and my arrangements
+               completed, I started on what to many might have seemed not only hazardous but
+               profitless undertaking. But to him who bears perseverance about with him in his
+               breast and determination in his face, and holds communion with all things around him,
+               nothing is hazardous, nothing profitless. </p>
+         </div>
+         <div>
+            <head>PICTURE NO. XII—TWO PORTRAITS THAT OUGHT TO BE HUNG UP. </head>
+            <p>The forepart of my journey contained little of interest if I except the appearance
+               and movements of two travellers whose portraits ought to be <pb n="102"/><cb/>hung up
+               in our Gallery for the benefit of both Afric and Anglo American. </p>
+            <p>One by one the stage emptied its passengers till these two individuals and myself
+               only were left. Let me give a rough pencilling of each. One of them, and by far the
+               most attractive of the pair, was a lean, sallow faced, lantern-jawed, hyena-looking
+               little man, standing about four and a half feet in his boots, with a long, narrow,
+               retreating forehead, heavy brow and small piercing black eyes and long black hair.
+               His nervous excitability rose and fell with every jolt of the stage coach, and with
+               every whiff of the wind. </p>
+            <p>The other was an animal of yet a meaner cast. Though not a greyhound, nor a blood,
+               still a kind of hound, a two legged one of a genuine American stock. </p>
+            <p>He was large in frame and bloated in flesh. His hands resembled a pair of oyster
+               rakes, and his feet shovels, such as are used by ditchers. Upon his large bullet
+               head, which was closely cropped of its coarse bristly hair, jauntingly sat a low
+               slouched hat, from beneath which his blood-shot eyes, when they dared to look
+               directly at you, seemed truly terrible. His coarse, vulgar mouth contained a quid of
+               tobacco nearly as large as your fist—genuine Virginian—the juice of which he squirted
+               freely in all directions. His clothes were loose and slovenly, and his linen dirty.
+               From his trouseers’ pocket obtruded a pair of shackles, from his vest a revolver, and
+               from his inner shirt a dagger. </p>
+            <p>Reader, here surely was a pair of portraits for you. I would have given half of all I
+               ever possessed to have had these two rare specimens of Anglo humanity for our <hi
+                  rend="quotes">Afric-American</hi> Gallery. I was certainly in a menagerie.</p>
+            <p>They eyed me and I eyed them. Incidentally I learned that they were a <hi
+                  rend="italic">Slave Holder</hi> and a <hi rend="italic">Slave Catcher</hi> in
+               search of runaways, and mistook me for one. I prepared myself accord-<cb/>ingly, and
+               should have made summary work with them, had a hand to hand encounter taken place,
+               just such as fugitives should make in a like case. </p>
+            <p>To assure themselves that their suspicions were correct, they struck up a
+               conversation in good Old Virginia style, and I, willing to enliven or drive away I
+               cared not which, the dull hours of the stage coach, readily joined in.</p>
+            <p>They were not long in discovering not only their mistake but were soon routed. White
+               men generally, and slave holders in particular dislike nothing so much as to stumble
+               over and wake up black men capable of a single thought, much less intellectually
+               equal, and none laugh more heartily than common sense black men over the extreme
+               folly of the continually assumed or imagined mental superiority of white men over
+               them. </p>
+            <p>In this instance matters began to look quite serious, and I began to fear something
+               more than a wordy encounter, as fingers began to twitch and pistols move from their
+               places, but by dint of chewing and spitting and frothing and hard swearing and round
+               ponderous oaths, affairs seemed their wonted state. But so chagrined were my
+               companions at their sad discomfiture, that I verily believe had it been possible,
+               they would have crawled into the harness of our horses and took their places if thus
+               they could have passed from observation. </p>
+            <p>Thus ended my first day’s journey towards the <geogName>Black Forest</geogName>. The
+               second was to be mostly the pedestrian’s task. </p>
+            <p>The stage coach sat me down by ten o’clock next morning, and my two companions eyed
+               me so wistfully till the thick tangle wood separated us, that I was well satisfied
+               that their desire to make me their prey was strong to the last. </p>
+         </div>
+         <div>
+            <head>PICTURE NO. XIII.—A PICTURE OUTSIDE OF THE GALLERY</head>
+            <p>Freed from this cage of wild beasts quite as miraculously as was Daniel <pb n="103"
+               /><cb/> from the lion's den, I sat out in good earnest, and for a time made fine
+               headway; a cold drizzling rain however sat in late in the day and the travel became
+               bad. </p>
+            <p>The afternoon wore away, and still I found myself wending towards a huge mountain
+               forest, whose crest loomed up blacker and blacker as the clouds of coming evening
+               rolled up from below the horizon. Here in all its grandeur and wild sublimity was the
+               native landscape spread out before me, the same that I saw in beautiful miniature but
+               a day before hanging on the walls of our Afric-American Gallery. Cold and wet, dark,
+               gloomy night at last overtook me still plodding my weary way, now alas, through a
+               dense and pathless forest in the direction of a solitary light. Dim at first, now
+               brighter as I passed on and on.</p>
+            <p>Three hours more gone, and now dancing still more brightly through the trees this
+               solitary light to my unspeakable joy, suddenly revealed itself fully in a small open
+               space, but almost as suddenly disappeared. </p>
+            <p>A low growl of a mastiff told me that I was quite near the place of my search.
+                  <said>Down, down sir!</said> said a gruff voice to the dog, and all was silent and
+               dark as the grave. </p>
+            <p>Used as I was to adventure and a stranger to fear, I confess a peculiar sensation now
+               passed over me in this reign of deathlike stillness, and I for a moment hesitated.
+                  <said>‘Men only are asked over to the <geogName>Black Forest</geogName>,'</said>
+               whispered a still, small voice in my ear. </p>
+            <p>I boldly stepped forward, and in a few moments came directly upon the steps of a
+               small and unpretending log <hi rend="italic">hut</hi>. I lingered a moment on the
+               landing; all was quiet within, but a gentle rap soon brought to the door a man who
+               bade me enter. </p>
+            <p>A cheerful wood fire was blazing on the open hearth, while three vacant chairs quite
+               rural in aspect surround-<cb/>ed it, and a small table and an old fashioned settee
+               completed the furniture of the apartment. </p>
+         </div>
+         <div>
+            <head>PICTURE NO. XIV.--PORTRAIT OF A MAN. </head>
+            <p>Tall and erect, strong like a forest tree, this man of the <placeName>Black
+                  Forest</placeName>, for such he was, was a glory to look upon. The frost of at
+               least ninety winters must have fallen upon his head, and yet had not chilled him, nor
+               had their winds bowed him, nor their cold dimmed the fires of his eye. </p>
+            <p>What a treasure, thought I, as I looked upon him, would this old man's portrait be in
+               our Gallery. </p>
+            <p><said>'From G—?'</said> said he, as he fixed his searching eyes upon me. I answered
+               in the affirmative, and a brief but satisfactory conversation ensued. Mine host soon
+               after set before me some cold meats, brown bread, an excellent dish of coffee and a
+               bowl of delicious milk; thus with the aid of the cheerful fire, making me feel quite
+               comfortable and at home, and the conversation was resumed. I shall not attempt even
+               an outline of it. If I except my own part I could not if I would. </p>
+            <p>I have listened to many men. It has long been my privilege to converse with men of
+               intelligence, and men of mind on all topics common to the day, but never before did I
+               wit ness such a flood of knowledge poured forth from the lips of man. I am no <hi
+                  rend="italic">Paul</hi>, but surely I sat at the feet of <hi rend="italic"
+                  >Gamaliel</hi>. Who was this man? How came he here? From whence did he come? What
+               hidden treasures are there in this place? What mysteries hang over it? These
+               interrogatories irresistably came up in my mind as the old man, with lamp in hand,
+               began to ascend a rude ladder to a single upper chamber, bidding me follow. Here on a
+               clean bed of rushes, I laid down, wondering at first, but soon buried myself in sound
+               beneficial sleep. </p>
+            <p>
+               <hi rend="italic">(To be Continued.)</hi>
+            </p>
+         </div>
+         <div>
+            <pb n="173"/>
+            <dateline>JUNE 1859</dateline>
+            <head>Afric-American Picture Gallery.—THIRD PAPER.</head>
+            <byline>BY ETHI0P.</byline>
+            <cb/>
+            <p>The reader will remember, that we parted company in the upper chamber of a lone Hut,
+               in the midst of the <geogName>Black Forest</geogName> at the dead of night to take
+               rest and repose. Ere the dawn of the next day, both eyes were wide open and I started
+               on a tour of observation. </p>
+            <p>Through a small window, so high, as to be beyond reach, the only aperture discernable
+               to the outer world, came a grey streak of morning light to my pillow, and roused me
+               from my bed. I up and hastily made my toilet such as it was, the best perhaps that
+               could be made in a mountain fastness, and ascended by a ladder to the roof. I shall
+               never forget the scene that burst upon my view. The peak of the <geogName>Black
+                  Forest</geogName> Mountain, for such it was upon which the solitary house stood,
+               touched the very clouds, while the Ocean with here and there a massive ship upon its
+               dark green bosom, though many miles distant, seemed to roll at its base. Crag on crag
+               lay piled on every hand and vale outstretching vale; and beyond as it was early
+               autumn, the sere and yellow leaf painted the otherwise vast green forest top with
+               indescribable beauty. The morning breeze with a purity and freshness known only to
+               mountain regions, sighed forth its soft music, so sweetly, that the feathered tribe,
+               and they were legion—were constrained to join in with their unerring notes; while the
+               deer, the squirrel, and the rabbit danced and skipped o'er steppe, crag and glen with
+               laughing joy. A few moments, and the sun, like a mighty an gel came hastening up, as
+               it were, from out of the Ocean; and with his strong presence gilded the whole scene
+               in an instant. So, impressed with what I saw, ere I was aware, a reverie stole over
+               me; and I know not how long it would have held me, but for a voice from below,
+               calling me away. It was the old man of the Forest summoning <cb/> me to the morning
+               repast; which to be brief, was all the most fastidious taste could have desired, and
+               far be yond any thing I could have imagined.</p>
+            <p>Breakfast over, the old man <hi rend="italic"><persName ref="#bernice"
+                     >Bernice</persName></hi>, for such was his name, retired; but returned after a
+               few moments, garbed in a red flannel gown, blue cap and black sandals; giving a
+               grotesque, yet a most commanding appearance. Holding in his hand a lighted lantern,
+               he advanced and mildly said; now my son, if you like, you may accompany me. So saying
+               he led the way through a narrow passage to what appeared from the house top, a mere
+               adjacent outbuilding. A stranger might have passed through this passage a thou sand
+               times without so much as imagining that the huge rough stone laying almost in his
+               pathway covered the mouth of a famous cave. </p>
+            <p>At a slight touch from the old man's hand this stone rolled away as if by magic, and
+               revealed a deep, dark <hi rend="italic">Cavern</hi>. With a firm step he began to
+               descend a ladder and I followed. Down, down, down we went. Down, down, down; and long
+               was it ere we reached the bottom; and when we did so, we were brought directly upon a
+               massive door which like the stone above, yielded to the touch of the old man's magic
+               hand. We entered a dark and spacious apartment through which old Bernice grouped to
+               the centre and held the lighted lantern up to a large lamp which depended from the
+               ceiling. What a transition!!! The dark and sandless cavern now revealed all
+               surroundings of the most studied and life long <hi rend="italic">Artist</hi>. Bust,
+               statues, statuettes; landscapes, portraits, fancy pieces; paints, pencils, pallets,
+               mallets, chisels; half finished sketches, studies in plaster; all, all lay in
+               profusion on every hand.</p>
+            <p>Prominent on a table near the lamp lay a fine duplicate portrait of our lit-<pb
+                  n="174" rend="wordbreaking"/><cb/> tle <hi rend="italic"><persName
+                     ref="thomas_onward">Tom</persName></hi>; our Gallery Boy, which I hung up just
+               before I left for the <hi rend="italic"><geogName>Black Forest</geogName></hi>. The
+               whole truth flashed upon my mind in an instant. Mine host was an <hi rend="italic"
+                  >Artist</hi>; and the executor of that beautiful likeness. <said>"My son"</said>
+               said the old man as he perceived my astonishment, <said>"though I have long since
+                  left the restless, busy crowd, I have not been unmindful of its jostlings. In this
+                  place, far from man's baseness, and man's vile injustice, have I labored; and it
+                  has been to me, a labor of love ; a labor too, not without its reward. Much that I
+                  have done with both <hi rend="italic">pencil</hi> and <hi rend="italic"
+                     >chisel</hi>—(I say it not in a boastful spirit,) will yet not only see the
+                  light, but command the just approbation of even the enemies of my race. I shall be
+                  gone, but these,"</said> said he, pointing to his works around him, <said>"these
+                  shall live after me."</said></p>
+            <p>He then seated himself before his <hi rend="italic">Easel</hi>, stretched his
+               canvass, and with brush and pallet commenced the labors of the day;—saying at the
+               same time in a manner as bland as it was touching— <said>“Oblige me my son and amuse
+                  also yourself by an examination of some of these my much <hi rend="italic"
+                     >cherished creations</hi> trifles—many of them— still I regard them with the
+                  affection of children.</said></p>
+            <p><said>Some of them recall to mind some of the dearest spots of earth to me; spots,
+                  which, if not for them, would long since have faded from my memory."</said> I soon
+               entered upon my survey; and for the hours,—(and how swiftly did they fly,)—that the
+               old man plied at his <hi rend="italic">work</hi> I reveled and feasted my mind upon
+               the splendours about me.</p>
+            <p>Here I found a statue or there a bust that might have done credit to the conception
+               of a <hi rend="italic">Canova</hi> or the hand of an Angelo. </p>
+            <p>Here hung a landscape, or half concealed, there lay a portrait or a Scripture piece
+               or fancy sketch, that might have excited the envy of a <hi rend="italic"
+               >Raphael</hi>. </p>
+            <p>Among other things, my attention was arrested by a new curiosity. It was a <hi
+                  rend="italic">Tablet</hi> of stone which mine host <cb/>informed me was dug out of
+               the mountain peak of the <hi rend="italic"><geogName>Black Forest</geogName></hi>,
+               but disclaimed all further knowledge of it. It is of brown sand stone, thirty-six
+               inches square, and three in thickness, engraved on one side only; and having when
+               found the engraved side downward.</p>
+            <p>The words are curiously spelt by the aid of 41 singular, new and beautiful
+               characters, or letters, each representing a distinct sound; and so many only are
+               employed as are necessary to make up each word.</p>
+            <p>I have by dint of hard study, been enabled to make out its contents; but of its
+               history or origin, or aught else of it, I leave for the learned in such matters. It
+               certainly challenges the attention of the Historian, the Ethnologist, and the
+               Antiquarian. Is it fiction, is it history, is it prophecy? Who can tell? I herewith
+               present a duplicate of the copy I made on the spot. </p>
+         </div>
+         <div>
+            <head>YEAR 4,000.</head>
+            <head>THE AMECANS, OR MILK WHITE RACE</head>
+            <p>1. Now hear oh ye who dwell in this age of pure light and perfect liberty; and marvel
+               not when I tell you that there were once such things as slaves in the land; since
+               even the word slave is no more mentioned among the children of men. </p>
+            <p>2. And these same slaves were human beings held in bondage—yea cruel bondage, against
+               their will, and against the dictates of common humanity; and were subject to purchase
+               and sale, like unto beast of burden and like unto merchandise. </p>
+            <p>3. Nor marvel not that these slaves were whipped with great gads, and were driven to
+               and fro in gangs and in chains, as we read of in our books, the beast of burden were
+               in the <hi rend="italic">nineteenth and twentieth centuries</hi>; yea they were
+               whipped often without offense even unto death. </p>
+            <p>4. And be ye not puffed up nor proud in spirit, oh ye sons of noble fathers because
+               ye now possess the land; and oh ye beautiful and refined <pb n="175"/><cb/>daughters
+               of virtuous mothers, be ye not vain overmuch because this land is now yours for an
+               inheritance for ever. </p>
+            <p>5. Nor be ye enraged, none of yon, because ye hereby learn that your <hi
+                  rend="italic">ancestors</hi> were these slaves, and subject to this hard bondage. </p>
+            <p>6. And give ye heed now while from this Tablet of stone, which your fathers made;
+               [and other tablets have they made also] I speak to you, and tell you what manner of
+               people possessed the land and bought and sold and held your ancestors and so
+               despitefully used them. </p>
+            <p>7. And lo and behold, as one appeared, so appeared all of them. They had <hi
+                  rend="italic">milk white shins</hi>, and their faces were like the chalk of
+               foreign hills, yea like unto the evil spirit; and their hair was long and strait and
+               uncomely; and in hue as the yellow or red clay of our fields. </p>
+            <p>8. And their faces were long and narrow, and their noses sharp and angular, and their
+               nostrils thin; so also were the lips of their sunken mouths, </p>
+            <p>9. They had sharp white teeth, like unto the teeth of the shark; and their eyes were
+               blue as the cloudless sky, and sometimes leaden as when it is overcast; and their
+               brows were large even unto the hiding of their eyes; and they were terrible to look
+               upon, yea even fearful. </p>
+            <p>10. And these people, long ruled in the land, and their hand was the the hand of
+               iron, and their hearts as the stones of our valleys.</p>
+            <p>11. And though they had great energy, and their wills were like unto the oaks of our
+               forest, their unscrupulousness was great, yea as huge as our mountains; and their
+               consciences were less than a span and harder than the diamond. </p>
+            <p>12. They built them large cities, and made great attainments in <hi rend="italic"
+                  >science</hi> and in <hi rend="italic">art</hi>; and were cunning workmen, and
+               wonderful tillers of the soil, making it yield its abundance. </p>
+            <p>13. And they made them great <hi rend="italic">ships</hi> and many; so much so, that
+               <cb/>the seas were whitened with their sails; and they sent great burdens out of
+               their land; and they got in return great riches. </p>
+            <p>14. And they builded also gorgeous <hi rend="italic">temples</hi> in which they
+               worshipped the <hi rend="italic">Gods</hi> of their own making, while they professed
+               to worship the true <hi rend="italic">God</hi>; all of whose known laws they
+               violated, and did but evil in his sight daily. </p>
+            <p>15. And your forefathers, they would not so much as permit them to enter the seats of
+               their <hi rend="italic">temples</hi> though they worshipped the true God, nor at
+               their solemn feasts; but compelled them to stand afar off, because they had great
+               hatred and prejudice against your forefathers. </p>
+            <p>16. And this people waxed fat and begat great pride, and clothed themselves in fine
+               linen and black cloth every day; and their hearts be came more and more filled with
+               the world and the lust thereof. </p>
+            <p>17. And they said, who is like unto us? We are the great and the mighty ones of the
+               Earth, and have a great mission to perform. We will level the hills and fill up the
+               vallies; and will lay the mountains low, and make the path of the land straight, and
+               they did so. </p>
+            <p>18. And we will lay on the path iron of our own workmanship and swift running
+               vehicles will we put thereon, so that when the warm breath of the water puffeth at
+               them they will run with swiftness and we will add to our cities and increase our
+               comforts; and they did so. </p>
+            <p>19. And they wrapped themselves up in their ease and luxury in hopeful security; and
+               their hand slackened; and great physical and mental weakness came over them ; and
+               many changes came in among them; so much so, that your forefathers looked upon them
+               with much concern. </p>
+            <p>20. Yea their hair darkened, so also did their eyes and their skins; and they said
+               unto your forefathers let us come in among you and be of you and partake of your
+               substance les: before our time.</p>
+            <pb n="176"/>
+            <p>21. And your forefathers did so; for they had increased much in sub stance and in
+               numbers; and much in strength and in wisdom also ; and had gained great possessions,
+               yea all the land.</p>
+            <p>22. And these people dwindled at last to leanness; and their bones be came small, and
+               thin, and so did their statues; and their minds became feeble, so much so, that they
+               wist not what they did; and finally they disappeared from among the children of men. </p>
+            <p>23. They staid no longer than to accomplish their <hi rend="italic">work</hi> and
+               then vanished; yea as a cloud did they vanish from off the face of the whole land;
+               yea the land which your fathers have since possessed and enjoyed. </p>
+            <p>24. And it is a great grief unto this day that so little, beyond these <hi
+                  rend="italic">tablets</hi> of stone, your fathers have left unto you that so
+               little is now known of these <hi rend="italic">Amecans</hi> or that a people once
+               possessing so many peculiar traits, should have passed away without leaving to your
+               fathers some greater memortal of their existence. </p>
+            <p>25. But <hi rend="italic">wo</hi> was unto the ; and their works with their evil
+               deeds seem to have perished with them.' </p>
+            <p>Simultaneous with my finishing this transcript, old Bernice rose from his labors. He
+               lighted his lantern and saying 'come my son,' stepped to a side door hitherto
+               unperceived by me but which like the first instantly yielded to his touch. We now
+               turned into a narrow passage and continued in its subterraneous windings some fifty
+               yards to another massive door, wdiich like others swung back at the old mans bidding.
+               But what a change ! ! ! </p>
+            <p>From the artistic, the beautiful and the curious, we had just quitted, an object the
+               most appalling my eyes ever beheld stood before us. Was it a man, was it even human?—
+               When we entered he stood crouched in one corner of his cell. His figure was gaunt and
+               tall; his head large and covered with long snow white hair, which hung in disordered
+               masses over his pale and shriveled face; and through which <cb/> his glaring eyes
+               kept up a most terrible rolling; while his mouth was white with foam. He soon
+               commenced an incoherent muttering the only word's distinguishable was <said><hi
+                     rend="italic"><persName ref="#bernice">Bernice</persName>, Bernice!</hi></said>
+            </p>
+            <p>Suddenly he made a fearful lunge for me. I started back. It was a useless start. A
+               chain was there. He could go no further. Then he raved, he shrieked, he tore his
+               hair; then he pronounced the most awful imprecations upon his captor, upon all man
+               kind, upon his <hi rend="italic">Maker</hi>; then he sub sided into the same low and
+               unintelligent murmur again, <hi rend="italic"><persName ref="#bernice"
+                     >Bernice</persName></hi> being the only distinguishable word. </p>
+            <p>Suddenly he knelt; then he prayed; then he sprang up, then he bounded the length of
+               his chains, then he stamped them in the earth, then he gnawed at their links; then he
+               begged, then he pled incoherently for something; I thought it was for deliverance and
+               instinctively stepped forward as though to give it. <said><hi rend="italic">Stay !
+                     !</hi></said> commanded <hi rend="italic">Old Bernice</hi> in voice that I
+               shall never forget." A stout heart only saved me from immediate petrification on the
+               spot; and when my eyes met his I confess I had some misgivings as to my own safety.
+               And where fore this man, said I.</p>
+            <p><said>‘This man! he is a murderer'</said> said he; and the old man's eyes kindled
+               almost to a living flame. <said>'He is a murderer!!'</said> exclaimed he again. </p>
+            <p>
+               <said>'The wretch once had wealth and ad the influence it brings; he once hall power
+                  and he exercised it like a fiend. The oppressed and helpless were the victims of
+                  his fiendish spirit. Many, too many of God's poor have, alas, felt his diabolical
+                  hand, <hi rend="italic">I</hi> was one of his victims, and dearly, dearly have I
+                  paid the cost. I had a wife and children.</said>
+            </p>
+            <p>
+               <said>‘He held them as his property. Would you ask the fiend where they now are; or
+                  shall the sigh of the winds as they come up from the rice swamps answer? I had a
+                  son, a son dear to me, though he held him too as property. Despite oppression he
+                  had grown to beautiful manhood.</said>
+            </p>
+            <pb n="177"/>
+            <cb/>
+            <p><said>Would you ask him where that son now is? Shall I answer that? Listen ! That
+                  chained hand the wretch now lifts toward heaven and yon for undeserved mercy, that
+                  chained hand struck down that son to the earth ; and with that other hand withered
+                  as you see it, the wretch blew out the brains of my child without provocation and
+                  without warning; and would not so much as allow his body burial.'</said> The old
+               man made a pause, and I took advantage of it and said something about the law,
+               redress, justice &amp;c. <said><hi rend="italic">'Laws!'</hi></said> exclaimed he
+               almost frantic. <said>'<hi rend="italic">Laws ! !</hi> what laws, what justice is
+                  there for the oppressed of our <hi rend="italic">class</hi>? What laws except to
+                  oppress them harder? What laws except to pursue and rob them from the cradle to
+                  the grave, yea even beyond both. The wretch there,'</said> said he pointing more
+               significantly than ever at the miserable object before us, <said>'the wretch opulent
+                  in lands, opulent in human chattels, received the general approbation of his
+                  associate Tyrants for his <hi rend="italic">acts</hi>.'</said></p>
+            <p><said>‘But no matter,'</said> continued he, <said>'I made my resolve and came hither.
+                  An interval was permitted to pass—a short one. He was brought hither, by what
+                  means I need not say. He was placed in my power. We confronted each other. It was
+                  a sore trial to him. We conversed much and freely. He spoke of the wrong done him;
+                  I spoke of mine. He spoke of his wife and children left behind. I reminded him of
+                  the sale and separation of mine. He spoke of his position in society and the wide
+                  difference between us. I told him that his superior advantage and position, so far
+                  from making him a wiser, and better man, had availed him little, worse than
+                  little, since it had made him a robber of the helpless, an oppressor of the weak
+                  and a murderer of the innocent. He plead earnestly for his rights. I told him he
+                  had no rights that I was bound to respect. He then begged hard for his liberty. It
+                  was a strange sight,'</said> said he, <said>'to see a <cb/> man begging for
+                  liberty from one of a class of whom he had his whole life long deprived of not
+                  only liberty but all that makes life worth having. He made large promises for that
+                  liberty. I told him that they were useless that he had now nothing to give; that
+                  he no longer possessed even himself; that his pleadings were now as useless as
+                  mine once were; that I was now the master and he the slave. I then as signed him
+                  his fate, and bid him prepare to meet it.</said>
+            </p>
+            <p>
+               <said>Long years have since gone by. I yet have him in my possession. I will not harm
+                  a hair of his head; but so long as he lives that gloomy cell shall be his
+                  prison-house, and these chains he is now bearing about with him in his sleeping
+                  moments and in last long waking hours, shall be his only earthly companions ; and
+                  when he dies, as die he must, I will cast his carcass forth to gorge the <hi
+                     rend="italic">Vultures</hi> that sit upon the mountain peaks of the
+                     <geogName>Black Forest</geogName>.'</said>
+            </p>
+            <p><said>'<persName ref="#bernice">Bernice</persName>, Bernice,'</said> imploringly
+               murmured this white trembling <hi rend="italic">Felix</hi>; and his knees smote
+               together with very fear, as he stood before his <hi rend="italic">sable master</hi>
+               and heard his words.</p>
+            <p>The huge drops of perspiration rolled down my face as I said to myself what a
+               terrible fate for a once proud tyrannical, wealthy white man who regards the black
+               man as but a poor imbecile ignorant feeble thing, not so much even as the beasts that
+               perish. </p>
+            <p>As the wretched fiend, for such I too now, regarded him, commenced again his wild and
+               loud imprecations, so loud that it seemed like a thousand voices, old Bernice drew
+               himself up to his full height, and with a commanding gesture waved me to retire, and
+               following said <said>'my son, thou hast as yet seen but little of this place;'</said>
+               and then turning round with one touch of his hand the heavy door sprang back to its
+               place, and all sounds within that cell were hushed from the <hi rend="italic"
+                  >world</hi>.</p>
+            <p>(<hi rend="italic">To be Continued.</hi>)</p>
+         </div>
+         <div>
+            <pb n="216"/>
+            <dateline>JULY 1859</dateline>
+            <head>Afric-American Picture Gallery. FIFTH PAPER </head>
+            <byline>BY ETHIOP</byline>
+            <cb/>
+            <epigraph>
+               <lg>
+                  <l>—Home again, and in fine spirits.</l>
+                  <l>
+                     <said>"Sound, sound the clarion, fill the fife ;</said>
+                  </l>
+                  <l>
+                     <said>To all the sensual world proclaim,</said>
+                  </l>
+                  <l>
+                     <said>One crowded hour of glorious life.</said>
+                  </l>
+                  <l>
+                     <said>Is worth an age without a name."</said>
+                  </l>
+               </lg>
+            </epigraph>
+            <p>So felt I, after my visit to the <geogName>Black Forest</geogName>, which has been
+               among the most remarkable of my meandering life. A faithful recital of what I heard
+               and what I saw, lengthened out in a dozen carefully collated and closely written
+               volumes, would scarcely do justice to my three days' stay in that place of mysteries.
+               But, as the pressure of other engagements called me from those never-to-be-forgotten
+               scenes, so now, also, do the events of the passing hour require at my hands some
+               thing else for my readers, reserving for another occasion a further chat about the
+               famous Grotto Home of Old Bernice, one of Nature's noblemen and one of her noblest
+               artists.</p>
+            <p>Home again, and in the Afric-American <cb/>Picture Gallery, and seated in my big arm
+               chair. Dear old arm-chair! seated in thee I survey with renewed and increasing
+               satisfaction this extraordinary Gallery. </p>
+            <p>My feelings are fresh and my eye clear, so that I can, perhaps, better take in the
+               beauties and excellencies of a picture than give out anything like an accurate
+               description of one.</p>
+            <p>Notwithstanding this, I cannot resist the temptation of a sketch offered by a pair of
+               pictures just beneath my eye. on the south side of the Gallery.</p>
+            <p>They are marked </p>
+            <p><title rend="italic">Pictures Nos. XIX and XX.</title> PREACHING AND AFTER
+               PREACHING.</p>
+            <p>The first represents the interior of a church—a negro church.</p>
+            <p>Locality—sunny South. The particular spot, I conclude from its surroundings, is among
+               the best of the good old plantations.</p>
+            <p>The church is filled to overflowing with <cb/><pb n="217"/>devout worshippers, and is
+               being discoursed to, affectionately, of course, by a double fisted, burly,
+               white-faced old Southern Preacher—a genuine Hard Shell.</p>
+            <p>The <hi rend="italic">artist</hi> has caught him just in the nick of time.</p>
+            <p>The Preacher is just in the act of extorting his sable hearers to obey their
+               masters—their kind, good masters.</p>
+            <p><said>"He that knoweth his master's will and doeth it not shall be beaten with many
+                  stripes."</said> These are his words. In catching the artist's conception, you
+               feel them, you hear them—you put yourself in his audience, and then they are gracious
+               words to you. They are unctious. On them your parson is feeling; he looks full of
+               feeling; he looks unctious all over. Unction pours out of his mouth ; it beams out of
+               his eyes ; it sticks out of his outspread fingers ; it runs down his broad face in
+               greater profusion than did the oil down the venerable beard of Aaron. </p>
+            <p>Just at this unctious point is our good man taken, and I heartily thank the artist
+               for having done him such justice. A fairer exhibit of a Southern preacher is
+               certainly nowhere else on canvass. </p>
+            <p>Nor has the artist lost any of his inspiration in the other details of his picture.
+               The preacher's sable hearers, with eyes dilated, mouths agape, nostrils distended and
+               ears alert, are intently leaning forward, that they may lose no word of the good
+               admonition, while here a moody brow, and there a skeptical face, or yonder a defiant
+               look, combine to form an admirable background. </p>
+            <p>The second of this pair of pictures, entitled <title rend="italic">After
+                  Preaching</title>, represents the congregation standing about outside the church
+               in groups around the faithful leaders, who, being men carefully selected by the white
+               piety of the sunny South, are of course, all of the Uncle Tom school. </p>
+            <p>By another masterly stroke of the artist's conception, they are taken just at the
+               point of the extreme of their extacies about the great and good sermon they have just
+               heard, while the leaders are in earnest exhortation on submission and willing
+               obedience to masters as the height of Christian duty. </p>
+            <p>In the background may also be seen a few young, determined-looking faces, on which
+               are expressed disbelief in, and de testation of, the whole affair. They are <cb/>the
+               same noticed in the back-ground of the former piece. </p>
+            <p>These young spirit-faces possess such a strong look of meaning that none need mistake
+               it. A look so strong, so bold, so towering, that, like Monadnoc among the granite
+               hills, it peers far above the scrawny frowns, and puny smiles, and jeers, and gibes,
+               and sneers, and hates of the vulgar, the mean, the base; a look that will go up
+               through all time, and, as light before the coming sun, so as surely will it be the
+               forerunner of the great deliverance of long-pressed humanity. The look and the
+               meaning do actually exist, and the sooner the World knows it the better.</p>
+            <p>These faces, in contrast with the others of the congregation, give a most striking
+               effect to the picture. They are the unholy, the skeptical, the worthless of the
+               flock—the wicked ones, who would rather run the risk than be bound up in the
+               religious love so feelingly and so faithfully proclaimed to them—the religious love
+               of the land. </p>
+            <p>It is of this class comes our Nat Turners, who laid a scheme for redemption, and the
+                  <hi rend="italic">man</hi> in Georgia who received nine hundred and ninety-nine
+               lashes by way of gentle compulsion, and then would not so much as reveal one particle
+               of the <hi rend="italic">plan</hi> laid by and for the uprising of his oppressed
+               brethren. It is of this class come the Margaret Garners, who rather than their babes
+               even shall clank a chain, prefer to send them up to their God who gave them. It is of
+               this class comes our Douglasses and our Browns, and a host of other spirits now cast
+               upon the regions of the North, as a Southern er once expressed it, <said>"to wailin
+                  the misery of their sins, and lament in the wretched ness of their misunderstood
+                  liberty."</said>
+            </p>
+            <p>These are good views, and may be studied with profit by any Southern Preacher, master
+               or monster who will take the trouble to visit the Afric-American Picture Gallery.
+            </p>
+         </div>
+         <div>
+            <p><title rend="italic">Picture No. XXI.</title> is A HEAD OF <persName
+                  ref="#phillis_wheatley">PHILLIS WHEATLY</persName>.</p>
+            <p>It hangs in the north-east corner of the Gallery, and in good light, and is so
+               decidedly one of the finest in the collection, whether viewed in an artistic light or
+               in point of fact, that it is both a constant charm and study for me. The features,
+               though indicative of a delicate organiza-<pb n="218" type="wordbreaking"/><cb/>tion,
+               are of the most pleasing cast. The facial angle contains full ninety degrees; the
+               forehead is finely formed, and the brain large ; the nose is long, and the nostrils
+               thin, while the eyes, though not large, are well set. To this may be added a small
+               mouth, with lips prettily turned, and a chin—that perfection of beauty in the female
+               face—delicately tapered from a throat and neck that are of themselves perfection. The
+               whole make-up of this face is an index of healthy intellectual powers, combined with
+               an active temperament, over which has fallen a slight tinge of religious pensiveness.
+               Thus hangs <persName ref="#phillis_wheatley">Phillis Wheatly</persName> before you in
+               the Afric-American Picture Gallery, and if we scrutinize her more closely through her
+               career and her <hi rend="italic">works</hi>, we shall find her truly an extraordinary
+               person. Stolen at the tender age of seven years from the fond embraces of a mother
+               whose image never once faded from her memory, and ferried over in the <hi
+                  rend="italic">vile slave ship</hi> from <placeName>Afric</placeName>'s sunny clime
+               to the cold shores of <placeName>America</placeName>, and sold under the hammer to a
+               Boston merchant—a delicate child, a girl, alone, desolate; a chilly, dreary world
+               before her, a chain on her feet and a thorn in her bosom, and an iron mask on her
+               head, what chance, what opportunity was there for her to make physical, moral, or
+               mental progress? In these respects, how get up to, or keep pace with, other and more
+               favored people?—how get in the advance?—how ascend, at last, without a single
+               competitor, the highest scale of human eminence? <persName ref="#phillis_wheatley"
+                  >Phillis Wheatly</persName> did all and more than this. A sold thing, a bought
+               chattel, at seven years she mastered, notwithstanding, the English language in
+               sixteen months. She carried on with her friends and acquaintances an extensive and
+               elegant epistolary correspondence at twelve years of age, composed her first poem at
+                  <hi rend="italic">fourteen</hi>, became a proficient Latin scholar at <hi
+                  rend="italic">seventeen</hi>, and published in England her book of poems dedicated
+               to the <persName ref="#selena_hastings">Countess of Huntington</persName> at <hi
+                  rend="italic">nineteen</hi>; and with the mantle of just fame upon her shoulders,
+               sailed from <placeName>America</placeName> to <placeName>England</placeName> to
+               receive the meed due to her learning, her talents, and her virtues at twenty-two.
+               What one of America's paler daughters cotemporary with her, with all the advantages
+               that home, fortune, friends and favor bring—what one ascended so far up the hill of
+               just fame at any age. I have searched <cb/>in vain to find the name upon the literary
+               page of our country's record. </p>
+            <lg>
+               <l>Oh! Wheatly!</l>
+               <l>What degrading hand, what slavish chain. </l>
+               <l>What earthly power could link thy nobler soul </l>
+               <l>To baser things, and check its eagle flight </l>
+               <l>Angel of purity, child of beauteous song, </l>
+               <l>Thy harp still hangs within our sight </l>
+               <l>To cheer though thou art gone. </l>
+            </lg>
+            <p>The lady visitors to the Gallery would do well to make the head of <persName
+                  ref="#phillis_wheatley">Phillis Wheatly</persName> a study. </p>
+         </div>
+         <div>
+            <p>I have never read a <hi rend="italic">treatise</hi> on the art of pleasing, nor have
+               I otherwise acquired it, and hence my imperfection in so important a matter. I never
+               could well please; a lady friend says I have never tried. Be this as it may, permit
+               me to observe that since my three days' visit to the <placeName>Black
+                  Forest</placeName> and three weeks' barricading of the doors of the Afric-American
+               Picture Gallery against its many friends who have sought it out, there has been
+               brought upon me such a storm of choleric feeling as will serve for all of life to
+               come. I had just finished the last sketch, and wrapped myself up in the happy
+               consciousness of its justness, my old mood stealing over me, my mind traversing back
+               to the days when Banneker lived and told of the stars and of the rising suns, and
+                  <persName ref="#phillis_wheatley">Wheatly</persName> sung their praise to
+               listening worlds, when a loud rap at the door brought me to a sense of the present
+               moment and to my feet. Wondering who the intruder might be that dared to thus disturb
+               me, I bade him enter. It was <hi rend="italic">Tom</hi>—yes, Tom, with a package of
+               letters in his hand. The little rogue's smile was as fresh and sunny as ever, and it
+               was a pleasure to see him ; but, somehow or other, there was a wicked twinkle playing
+               about the corners of his usually wicked little eyes, that told me something in my
+               absence had gone amiss. I concealed this discovery, however, and merely said:
+                  <said>"Well, <persName ref="#thomas_onward">Tom</persName>, my good fellow, what
+                  has turned up since my absence?"</said>
+               <said>" Oh! nothing much, only a plenty of calls, sir,"</said> said he.
+                  <said>"Calls?"</said> said I, rising, <said>"I hope you have not permitted, sir,
+                  any one to enter the Afric American Gallery during my absence?”</said>
+               <said>"Why no, sir,"</said> said he, provokingly, <said>"but then there has been such
+                  a knocking at the door!"</said></p>
+            <pb n="219"/>
+            <cb/>
+            <p>I perceived how it was in an instant. The little rogue had been operating on his own
+               hook, and pointing out the Gallery to the various magnates around for his own special
+               amusement. </p>
+            <p><said>“The doctor has been here,"</said> he added, without paying any heed to the
+               embarrassment in which he had placed me ; <said>"and the Professor has been here, and
+                  the Philosopher with him ; and a little lady in black, and a tall lady, and a fat
+                  lady, and a strange nice lady from abroad have been here ; and a number of other
+                  ladies, and some queer ones, too, have been here ; and a crusty old gentleman,
+                  (white,) with a cane, has been here, too ; and two colored gentlemen, in white
+                  cravats and long black coats all buttoned down before."</said></p>
+            <p>Tom's odd description of so strange a group really put me in good humor. I took the
+               package from his hand, and throwing it on the table, wheeled round <cb/> before the
+               stature of <persName ref="#benjamin_banneker">Benjamin Banneker</persName>, for the
+               purpose of a few <hi rend="italic">notes</hi> for the readers of the <title
+                  rend="italic">Anglo-African Magazine</title>, when rather a loud and unusual noise
+               in the out er hall interrupted me. In looking up, lo ! and behold, advancing and
+               bowing, hats in hand, who should my eyes meet but the <hi rend="italic">Doctor</hi>,
+               the <hi rend="italic">Professor</hi>, and the <hi rend="italic">Philosopher</hi>,
+               closely followed by the little lady in black, and the tall lady, and the fat lady,
+               and the lady from abroad, and the two gentle men in white cravats and long black
+               coats all buttoned down before, fetching up the rear. Dumbfounded at so many and such
+               imposing visitors, I could only rise and make my best bow, which was awkward enough
+               at best. Of course I was cheated out of my reflections on <persName
+                  ref="#benjamin_banneker">Banneker</persName>, and so are my readers.</p>
+            <p>The conversation of my visitors, which was free, characteristic, and remarkable, I
+               must reserve for my next, reader.</p>
+
+            <p>
+               <hi rend="italic">(To be Continued.)</hi>
+            </p>
+         </div>
+         <div>
+            <pb n="243"/>
+            <dateline> AUG 1859</dateline>
+            <head>Afric-American Picture Gallery.</head>
+            <head>SIXTH PAPER.</head>
+            <byline>BY ETHI0P.</byline>
+            <p>It may not be forgotten by the reader, that I was last seen standing bolt-upright in
+               the middle of the Afric-American Picture Gallery, surrounded by quite a number of the
+               notables of our times, who had been attracted thither by the notoriety the Gallery
+               has recently assumed. </p>
+            <p><said>"What a singular picture,"</said> exclaimed the little lady in black as she
+               fixed her attention upon a small picture just opposite. This, to my own relief, drew
+               the attention of the entire party. <said>"It is singularly sad, even distressingly
+                  so,"</said> said the "lady from abroad;" <said>"and yet,"</said> she added,
+                  <said>"it is susceptible of improvement. Such a condition, though it tax our best
+                  energies, should be rendered better."</said>
+               <said>"I much doubt, if such a sorry subject as that could be improved in
+                  condition,"</said> broke in the "tall [not fat] lady." [Anglo-African Magazine
+               must father that appellation.] This last remark was backed up by the "stout lady,"
+               who always seemed but a necessary prop to the tall one—seemed made stout and strong,
+               and short and broad, for that very purpose.</p>
+            <p>That the reader may better appreciate these remarks, I will here give a simple <cb/>
+               outline of the picture to which they had reference. </p>
+            <p>It is marked "<title rend="quotes"><hi rend="italic">Picture</hi> 26,</title>" hangs
+               on the North wall of the Gallery, and is entitled "<title rend="quotes"
+                  >Condition.</title>" The subject is a <hi rend="italic">colored youth</hi>,
+               sitting upon the bank of a rapid river, beneath a huge tree much resembling the upas,
+               and surrounded by abject wretchedness. Rags and their concomitants cover his body;
+               poverty and want stare him in the face, a face marked with ignorance and the in
+               difference of stolid content.</p>
+            <p>All else is vacancy.—Pale and emaciated he sits; and at this vacancy alone he stares.
+               What the amount of intelligence he has, or what he is capable of acquiring, is for
+               the speculative, the philosophic and philanthropic to ascertain. On the opposite bank
+               of this river however, are green pastures, lowing herds and waving corn; while down
+               the swift-gliding stream, are miniature fleets of heavy laden little skiffs and
+               beautiful pleasure-yachts. The artist may be forgiven for over-drawing occasionally,
+               as in the case of the main subject of this picture; for I am sure, it would be
+               difficult to find within the whole range of our know-<pb n="244" type="wordbreaking"/>
+               <cb/>ledge anything reduced to a condition com pared with it.</p>
+            <p>And yet the question put by the "tall lady" and backed up by the "stout lady," and
+               oft repeated on the tongue of nearly all Anglo-Americans: <said>"can such a subject
+                  be improved?"</said> incidentally received a partial discussion, if not solution,
+               in our Gallery. The Doctor, who is a piece of a philosopher and a larger bit of a
+               wag, was intent on a fine large picture of the <title rend="italic">"First Colored
+                  Convention;"</title> and, overhearing the conversation as above noted down, turned
+               round to the company. <said>"What do you think of that, Doctor,"</said> asked a dozen
+               voices together; pointing to poor little "<title rend="italic">Condition</title>" on
+               the wall. The Doctor, after a few hurried glances at the picture through his <hi
+                  rend="italic">turtle shells</hi>, said, <said>"you may improve the condition, if
+                  you change the nature."</said>
+            </p>
+            <p>An opinion—though it meant nothing—from so high an authority, and so deliberately
+               given, was not without its weight; and the "Skeptic" shook his head doubtingly; while
+               the "Philosopher" with thumb and finger, and outstretched hand, launched out on
+               hair-splitting subtleties, to prove the amount of labor necessary to make even the
+               "Doctor's" proposition good. He also entered upon a learned dissertation, upon the
+               nature of the world in general, and our <hi rend="italic">poor little
+                     "<title>Condition</title>" in particular</hi>; and wound up by saying that
+                  <said>"whatever is, is right."</said>
+            </p>
+            <p>All this to me seemed so foreign from the point at issue, that, my impetuosity
+               getting the better of my known modesty, with arm uplifted and fist clenched, I broke
+               out with: <said>"It is the youth's condition, not his nature, that demands a change.
+                  He has all the great essentials common to humanity; hence, he neither wants more
+                  of this, nor less of that, within his composition, before he can be rendered
+                  susceptible of improvement."</said>
+               <said>"Will our Gallery-friend inform us then, how he would effect that
+                  change,"</said> enquired one of the "white cravats," who had all this time been
+               balancing like a rope-dancer, first on this side, and then on that—of the rail of the
+               conversation—to see which would best bear him. <said>"How would you proceed in so
+                  great an undertaking,"</said> said he, and concluded his own effort, by drawing
+               himself up in an attempt to look dignified. <said>"Put a lever in his hands, and he
+                  will proceed to raise himself from out of his own low Condition,"</said> said the
+               "Philosopher."</p>
+            <cb/>
+            <p>This was not quite definite enough, and the "skeptic" added, <said>"if the
+                  Philosopher will compose his <hi rend="italic">lever</hi> of <hi rend="italic"
+                     >means</hi> and <hi rend="italic">intelligence</hi>, I will agree with him. The
+                  youth wants first of all things, means, substantial means—wealth; such as the
+                  world values, and then intelligence enough to use it, and a fig for either his
+                  dull eye, his curly hair, or his <hi rend="italic">ebon face</hi>.—The most
+                  repulsive of his features may laugh in derision at their sternest foe; for they
+                  will appear charming to the surrounding crowd, their possessor's friends. Beauty's
+                  eyes are wealth and power."</said></p>
+            <p><said>"I now perceive the point of the argument,"</said> chimed in one of the long
+               black coats; and he buttoned it all down before. <said>"It is the youth's
+                  disabilities, and not his color, that bind him there;"</said> and as he said this,
+               he significantly pointed to the picture with his ram's-horn cane, strongly reminding
+               one of ancient Jericho and its falling walls. <said>"Precisely so,"</said> said I;
+                  <said>"you have it at last."</said> Notwithstanding I thought him very slow to
+               perceive a plain point, and came near telling him so.</p>
+            <p>At this point the "lady from abroad" mildly interposed, and said: <said>"take that
+                  youth, forlorn and wretched even, as you there behold him; and let but the light
+                  of culture beam in upon him, change not his physical, but his moral, mental and
+                  religious state ; and then possess him with <hi rend="italic">means</hi>—<hi
+                     rend="italic">with wealth;</hi> and you place beneath him a power, and put in
+                  his hands a force, that will be felt throughout the entire ramifications of human
+                  society."</said></p>
+            <p>This lady had such a neat way of putting her propositions, that it was not an easy
+               task to disturb them without risk; and so the "Doctor," the "Philosopher" and the
+               "white Cravats and long black Coats" deemed it best to keep quiet; but an old lady,
+               who had hitherto been a quiet spectator to the whole scene, now threw up her <hi
+                  rend="italic">spectacles</hi>, and sharply remarked; <said>"you young folks' talk
+                  is altogether too metaphorical for me, as my good brother—>a Philosopher,—yes, a
+                  Philosopher of the old school—a real Philosopher—used to say, when he overheard
+                  folks (he did not wish to offend), who did not know exactly what they were talking
+                  about. He always said to them, "you speak too metaphorically for me, "and so say I
+                  to you, my young friends."</said>
+               <said>"You are not understood"</said> ejaculated the old lady quite out of breath.
+               She then drew her shawl a <pb n="245"/><cb/>little closer, tossed back her hat,
+               adjusted her specs, and began an examination of the picture in question, as she
+               thought; but which was in fact one entitled <title>"Farm Life in Western
+                  America."</title></p>
+            <p>The whole Party, which for the moment was put to silence, at this unexpected sally,
+               stood a picture of suppressed mirth and hilarity, as they observed the "old lady's"
+               careful scrutiny of what she believed to be the subject of their conversation.
+                  <said>"Bless me,"</said> said she at length; <said>"what is this? Colored folks
+                  farming!! Ah now, that is it. This puts the question in a clear light; and if you
+                  young folks could only throw up your metaphorical veils, you could see it."</said>
+            </p>
+            <p>No one ventured to interrupt, and she proceeded: <said>"Now here are colored folks
+                  farming for themselves ; and don't their grain grow as well as if they were white
+                  ; and don't it sell as well ?"</said>
+            </p>
+            <p><said>"Is not this a change only of condition? Talk of changing nature !!!</said>" </p>
+            <p><said>"But where is the boy, that I hear you say so much about,"</said> inquired the
+               "old lady," evidently puzzled.—<said>“The Village?"</said> said she. <said>"Yes, yes
+                  ; and here is its colored village blacksmith, shoeing his white neighbor's
+                  horse."</said>—<said>“What can't change our condition?"</said></p>
+            <p><said>"Fiddle-sticks and nonsense,"</said> exclaimed she again. <said>"Talk of
+                  changing appearances !"</said></p>
+            <p><said>"And look here,"</said> cried she out again ; <said>"here is a colored man
+                  tending his own mill; and is not the flour as white as any other ? and are not all
+                  the town, white and colored, running to procure it?"</said>
+            </p>
+            <p><said>"Welladay, welladay,"</said> said the "old lady," and shook her head
+               disapprovingly. Peering over the picture, she spied a splendid carriage, drawn by a
+               span of spanking bays, driven by a boy, and containing the owner, a colored gentleman
+               and his family, just entering the village.</p>
+            <p><said>“The Lord be praised,”</said> fairly screamed out the “old lady” this time; and
+               she put up both hands, threw up her specs, and wheeled square round to the company,
+               exclaiming : <said>"and you would have them change the color of their faces, would
+                  you, before you would have them ride thus ? This is your methaphysics, is
+                  it?"</said> and <said>"welladay, welladay,"</said> muttered she again.</p>
+            <p>A little farther on, and she espied a large <cb/>mansion, in process of erection by
+               colored, and white mechanics conjointly. </p>
+            <p><said>"The Lord be praised,"</said> ejaculated she again. <said>"Now if this is not,
+                  what I call truly practical. For it is truly a practical operation where color is
+                  no bar,"</said> said the old lady. <said>—Away with your methaphorical,
+                  methaphysical nonsense, and give them plenty of the wherewith to do with, and they
+                  may wear their color without let or hindrance."</said> And as if doubly to assure
+               herself and the company of the correctness of her opinion, she re-affirmed it, by
+               saying, <said>"possess them, all round, with money and all its pertainances; and no
+                  station is there so high and no power so great, but will, at their pleasure, be
+                  handed down to them."</said> The "Doctor," whom the "old lady" eyed with a
+               keenness evidently provoking retort, dared venture no reply, and only bit his lips.
+               One of the "White Cravats" buttoned down his coat, elongated his face, and poised
+               himself on both sides of the argument, manifestly anxious—since the "Doctor" said
+               nothing—to jump down on the "old lady's' side of the argument; while the other "long
+               black Coat" pulled up his cravat, and enjoyed vastly his friend's vacillating but
+               uneasy position. The "little woman in black seemed" quite self-satisfied, that she
+               had called attention to so grave a subject; for gravity and weight were her themes,
+               her elements, her life, her all. In them she lived, moved and had her being. </p>
+            <p>The "tall lady" failed to see any convincing proofs; and so did the "stout lady," her
+               friend and necessary prop. </p>
+            <p>The "Philosopher" archly enquired if the ladies saw at all?—</p>
+            <p>At this the "tall lady" grew taller, and the "stout lady" stouter; so much so, that I
+               began to get anxious for the unfortunate "philosopher," and midly suggested that the
+               ladies would find some interesting views on the other side of the Gallery. The
+               company, some satisfied, some self-satisfied and some dissatisfied, each in his own
+               mood, passed over to where hung a series of small pictures labeled
+                  <title>"City-Life."</title> One of these, a <hi rend="italic">beautiful colored
+                  girl</hi>, with a hideous monster of a white-faced doll in her arms, caught the
+               "old lady's" eye; and she at once exclaimed, <said>"That is more of your metaphorical
+                  nonsense—putting such prejudicial stuff into little children's heads—even before
+                  they know they have heads! Set your little boys and girls in the right way of
+                  thinking <pb n="246"/><cb/> in the outset: that's what <hi rend="italic">I</hi>
+                  say;"</said> and the "old lady" threw herself back into our good old Gallery
+               arm-chair, muttering to herself, <said>"what stuff and nonsense these new-fangled
+                  colored folks are putting into the heads of our people. They are worse than white
+                  folks."</said></p>
+            <p>The "tall lady" and the "stout lady" and one of the "white cravats" were quite
+               indignant, that such a picture was allowed a place on the walls of the Afric-American
+               Picture Gallery. <said>"It is a life-picture,"</said> provokingly chimed in the
+               "Philosopher," forgetting his former risk. </p>
+            <p><said>"It is an insult to the children,"</said> sarcastically exclaimed the "tall
+               lady." <said>"It is an insult to the children,"</said> screached out the "stout
+               lady." <said>"It is an insult to the children,"</said> blandly bawled out one of the
+               "white cravats;" and he buttoned down his coat, and tried to look very dignified
+               indeed; and then they all three looked daggers at the gaunt "Philosopher." </p>
+            <p>Turning round to the "lady from abroad," the "tall lady," with a leer said,
+                  <said>"what would <hi rend="italic">you</hi> have for our children, Madam? Yes,
+                  what would you have?"</said> smirked out the "stout lady." </p>
+            <p><said>"Just so, what would you have," </said> defferentially cold drawled out the
+               "white cravat," and he again buttoned down his coat. The "lady from abroad" with some
+               warmth answered: <said>"Educate first of all things, and above all things, your
+                  children to have <hi rend="italic">true self-respect</hi>: yes, I repeat
+                  it,"</said> said she with an energy that startled her auditors, <said>"<hi
+                     rend="italic">true self-respect</hi>, and then, upon this basis, and this
+                  alone, place all their future acquisitions. In the matter before us, I leave you
+                  to draw your own conclusions."</said>
+            </p>
+            <p>This fine proposition caused the "skeptic" to rub his hands with glee, while the
+               wiley "Philosopher" made a vain attempt to split it by one of his philosophical
+               hair-splitters. </p>
+            <p>The "Doctor" and one of the "long black coats" by this time had got quite interested
+               and rather warm over <title rend="italic">Picture No. 27</title>, the first
+               convention, the "Doctor" maintaining with much pith, that the leading minds of that
+               time, who did most to advance the cause of Afric-America, were outside of the clergy;
+               and pointed out the leading heads in this fine picture in evidence. It was with a
+               glow of delight, that—with stick in hand,—moving from the commanding form and strong
+               head of <persName ref="#alexander_hamilton">Hamilton</persName> to the calm <cb/>
+               brow and ponderous intellect of <persName ref="henry_sipkins">Sipkins</persName>;
+               from the keen phiz and business-like air of <persName ref="#james_forten"
+                  >Forten</persName> to the massive head and eagle eye of the fiery <persName
+                  ref="#hezekiah_grice">Grice</persName>, or the eloquent, yea almost now speaking
+               lips of <persName ref="william_hinton">Hinton</persName>, the cool and determined
+                  <persName ref="#bird">Bird</persName>, the polished <persName ref="#burr"
+                  >Burr</persName>, the vigorous and clear-sighted <persName ref="#john_bowers"
+                  >Bowers</persName>, the strong-minded <persName ref="#vanbrackle">Van
+                  Brackle</persName>, and the unswerving <persName ref="#george_vashon"
+                  >Vashon</persName>—all, all—and discanted upon their excellencies. </p>
+            <p>The "long black coat," cool, cautious, wily and earnest, with equal pertinacity
+               pointed out the talented clergy, who led on the host of that day. He pointed to the
+               far-seeing <persName ref="#bishop_allen">Bishop Allen</persName>, the able <persName
+                  ref="#watkins">Watkins</persName>, the eloquent <persName ref="#corr"
+                  >Corr</persName>, the learned and talented <persName ref="#cornish"
+                  >Cornish</persName>, the far-seeing <persName ref="#easton">Easton</persName> and
+               the faithful <persName ref="#rush">Rush</persName>; all of whom stood to their posts
+               in the dark hour of our trial.</p>
+            <p>Turning from these, he pointed to the mild and gentle face of <persName
+                  ref="#peter_williams">Peter Williams</persName>, who so long led an intelligent
+               people on ward and upward to a higher state. This called up reminiscences of the past
+               to the "Doctor's" mind; and if it did not convince, it certainly touched him, and he
+               was silent. The "wily long black coat" then turned to the portrait of the lamented
+                  <persName ref="#theodore_wright">Theodore S. Wright</persName>, and set forth in
+               strong light his vast labors and their results. He also pointed out others, who were
+               prominent in that clay, and finally exclaimed: <said>"The good they have done, no man
+                  can estimate I!! Its influence will vibrate through time, and will continue up
+                  into eternity. There hang their portraits,"</said> said he, and he pointed round
+               the gallery. <said>Let no man take them down. Let no ruthless hand disturb them ; no
+                  polluted finger dare to touch them!! ! There they hang, and there may they hang
+                  forever! ! !"</said>
+            </p>
+            <p>This little patriotic conclusion elicited from the whole company, the "Doctor"
+               included, a round of hearty applause. </p>
+            <p><said>"There is no metaphorical nonsense about that!"</said> exclaimed the "old
+               lady;" and she rose, put up her specs, gathered up the folds of her dress, and walked
+               dignifiedly out. </p>
+            <p><said>"No metaphorical nonsense about that,"</said> echoed the other of the "white
+               cravats," as the " old lady's" last foot-fall sounded down the gallery, and he felt
+               again for his dignity, and buttoned down his coat. </p>
+            <p>The "Philosopher" pulled out his watch, and began to measure time. The "Doctor," <pb
+                  n="247"/><cb/> suddenly jumping up out of a deep brown study, started for the
+               door; and the "skeptic" took a stroll down the gallery. The "tall lady" turning up
+               what nose she had, and the "stout lady" endeavoring to turn tip what nose she had
+               not, at the possibility of "colored folks" ever being improved, at least by their own
+               efforts, they both indignantly strode out of the gallery, shaking the very dust off
+               the soles of their feet.—</p>
+            <p>The "lady from abroad" proceeded to examine some pieces of statuary at the <cb/>upper
+               end of the gallery, and made some just criticisms; thereon, while the "little lady in
+               black," self-satisfied and prime, sat a model of patience. The "white cravats" and
+               "long black coats" adjusted their neckties, buttoned their coats down before, put on
+               their hats, drew on their gloves (black ones of course), and quietly departed, wiser
+               I trust for their visit; while I, unable to draw any thing but this imperfect sketch,
+               hurriedly sent Tom off with it to the <title rend="italic">Anglo African
+                  Magazine</title>. </p>
+            <p>
+               <hi rend="italic">(To be Continued.)</hi>
+            </p>
+         </div>
+         <div>
+            <pb n="321"/>
+            <dateline>OCT 1859</dateline>
+            <head>Afric-American Picture Gallery. SEVENTH PAPER.</head>
+            <byline>BY ETHI0P.</byline>
+            <head>The Early Days of the Underground Railroad.</head>
+            <cb/>
+            <p><persName ref="#bill">Bill</persName> came in one day in a towering rage. It was in
+               the earlier days of the Afric American Picture Gallery, when its quiet was seldom
+               disturbed by visitors of any kind. </p>
+            <p>I started from my old arm-chair in much alarm, and somewhat hastily inquired what the
+               matter was. </p>
+            <p>Bill's eyes (and I watched him closely) had all the seeming of a fiery demon. His
+               large athletic frame seemed to expand with his increased emotion. His broad breast
+               heaved to-and-fro like the surges of the ocean lashed with the fury of a storm; while
+               his clenched fist continued its hold on a double-barrelled pistol (Colt's revolvers
+               where not then in fashion) which lay hid in, his left breast-pocket. </p>
+            <p>His countenance, hitherto of dark hue, was now pale, even to ashiness; and his teeth
+               gnashed like one of the furies just let loose from the bottomless pit. </p>
+            <p><said>"What is the matter,"</said> said I, with increased alarm, <said>"for heaven's
+                  sake, say what is the matter?"</said>
+            </p>
+            <p><said><hi rend="italic">"I have seen him!"</hi></said> said he, with an emphasis that
+               made me shudder all over. <said>"I have seen him!"</said> exclaimed he again, still
+               more emphatically, <said>"and should he cross my path again, by the" ---------</said>
+               The balance of this terrible utterance, happily, was lost on my ear; and without
+               abating anything either in appearance or manner, and without another word, he rapidly
+               strode the floor, leaving me to supply with my 1 imagination what I could not
+               ascertain by inquiry. </p>
+            <cb/>
+            <p><persName ref="#bill">Bill</persName> was a product of that famous plateau bounded by
+                  <placeName>Pennsylvania</placeName>, <placeName>Delaware</placeName>, the
+               Atlantic, <placeName>North Carolina</placeName>, and the Alleghany Mountains; and
+               which gives out to the country and the world men. </p>
+            <p>He was a large, strapping young fellow, just twenty-five, with the proportions of an
+               ox, his chest alone having the breadth of two ordinary men. His head was large, his
+               face round, his mouth wide, as were his nostrils, and his forehead broad. A real bull
+               of Bashan; and yet the general aspect of his countenance was mild, and even pleasant,
+               when not under excitement. </p>
+            <p>He had formerly been one of a large plantation of ill-used, badly-fed, overworked,
+               and ignorant slaves. I say ignorant, because they knew nothing of the world beyond
+               their plantation home, and <persName ref="#bill">Bill</persName>, at the time we now
+               speak of, had never seen beyond his native hills. But he had a pair of quick eyes,
+               two open ears, two strong legs, and a will of his own. </p>
+            <p>These, young as he was at that time, he determined to use for his own benefit; and if
+               denied him where he was, to seek out some other spot where he could exercise this
+               most natural intention.</p>
+            <p>How small a circumstance sometimes will turn the point, the vital point in a man's
+               destiny, and so it was with our hero.</p>
+            <p>White young Northern adventurers, in those days, were in the habit of finding their
+               way, summers, down South, seeking employments which paid better than in their own
+               sterile New England, or among <pb n="322"/>the cold blue hills of Northern New York. </p>
+            <p>One of these fellows, a carpenter, who found his way to the plantation on which Bill
+               belonged, now and then, to the slave boys who chanced to be about him, would make
+               occasional remarks about the North and New England, and especially his own native
+               state, <placeName>Maine</placeName>. <persName ref="#bill">Bill</persName>, dull and
+               indifferent, seemed always in the way. His seeming indifference to anything said in
+               his hearing by the white help about the plantation gave him excellent advantages, and
+               well did he improve them; for he kept up a most wonderful thinking and a strict
+               reckoning, and in due time was fully prepared to step out and ascertain for himself
+               if all the long yarns and handsome stories he had heard and overheard about the North
+               were really true. Why should he not, like other boys, gratify a natural curiosity,
+               even if he was only Bill and lived on a plantation; and though, too, it was said that
+               he belonged to it ? This latter saying, just here, we may remark, he never could,
+               some how or other, fully make up his mind to believe; he never could lead his mind
+               fully to believe that he belonged to the plantation or the master thereof. Reasoning
+               thus, one Sunday morning, having made previously all due preparation, he obtained
+               permission to go a distance in a southward direction, but like a naughty boy turned
+               his face northward, not, however, till he had turned himself into a bale of tobacco,
+               and took passage in the underground railroad. The road, then, not as now, had but one
+               track, and it would have been a novel sight, methinks, to have seen this tobacco,
+               alias our Bill, traveling, wheelbarrow fashion, upon the primitive underground
+               railroad. </p>
+            <p>But such sights are, as a general thing, denied to mortal eyes, and our hero
+               proceeded under the strict privacy of a gentle man incog; and arrived in due time
+               North, and like a self-unwrapping mummy laid his tobacco, one night, quietly down
+               upon the steps of a New England factory, and stepped forth to see the country. </p>
+            <p>Thus he got North; and staid North, till early one bright November morning he was
+               suddenly roused from his slumbers by a heavy hand; and on rubbing out his eyes and
+               looking up who should stand before him but his young master and a posse of officers. </p>
+            <p>The place where he was so unceremoni-<cb/>ously woke up was in a humble but
+               respectable lodging in <placeName>Calais, Maine</placeName>; the very place he bad so
+               often heard of in scraps of story and snatches of song, by the young white employee
+               on the old plantation, and had pictured to himself in his dreams of liberty. </p>
+            <p>Alas, poor fellow! little did he think that a betrayer almost invariably lurks under
+               a white skin; and that the same who seemed more civil than the ferocious Southerner,
+               would be the one to send him back to his chains and to the prison-house of bondage
+               for a little more than a mess of pottage.</p>
+            <p>Jakes, the carpenter, in his wanderings returned to <placeName>Calais</placeName>,
+               his native town, and one day discovering <persName ref="#bill">Bill</persName>,
+               conceived the idea of replenishing his nearly empty purse by the betrayal of a poor
+               fugitive youth, in which he out-Judased Judas Iscariot; for he (Judas) covenanted for
+               thirty pieces of silver, while Jakes got only twenty-five. </p>
+            <p>Poor modern Judas! Just as the last of his twenty-five pieces was expended, he blew
+               out his own brains with a horse-pistol, and his body falling into a stream it swiftly
+               drifted out to sea and was made food for the fishes. </p>
+            <p><said>"Come, <persName ref="#bill">Bill</persName>! don't you know me? What are you
+                  doing here ? Get up you rascal, instantly, and come along! Get up, I tell you, or
+                  by"</said> ---</p>
+            <p><said>"Massa,"</said> said Bill, <said>"I is so glad you come! for I is so sick and
+                  tired of this ere place."</said>
+            </p>
+            <p>
+               <said>"I is been most starved since I run'd away, and is been most naked, too.
+                  'Tain't no use to try to get along without Marsar."</said>
+            </p>
+            <p>So saying he made ready and proceeded with all possible haste with his young master
+               to a place of safety. </p>
+            <p>However unsound our hero's admissions and reasonings may have seemed to his real
+               friends, they were perfectly philosophic to him, and so insured the confidence of his
+               master that he dismissed his Northern menials, save one, who acted as a sort of
+               lacquey, and forthwith repaired to the South with his man.</p>
+            <p><said>"Such complete disgust of this negro of the North will have a most salutary
+                  effect upon the rest of the negroes,"</said> said he. <said>"He will be most
+                  valuable to the plantations round generally."</said> Thus reasoned the master, as
+               he sat the first morning after <pb n="323"/>his arrival home, in his dining room,
+               after perusing the morning paper. </p>
+            <p>Whoever will take the trouble to examine so far back as our story dates, will find
+               this paragraph going the rounds of the <placeName>Calais</placeName>,
+                  <placeName>Portland</placeName>, and other <placeName>New England</placeName> and
+               many other Northern journals of that day: </p>
+            <p>
+               <hi rend="italic">"The beauties of Negro freedom."</hi>
+            </p>
+            <p>"A negro, the property of <persName ref="#jd_esq">J. D., Esq.</persName>, of
+                  <placeName>Maryland</placeName>, who had, either through the machination of some
+               of the enemies to humanity, or his own thick-pated folly, strayed away to the
+               North—where the rigors of the climate and the pinchings of hunger had well nigh used
+               him up.</p>
+            <p>His master, happily, however, arrived just in time to take his too-willing slave
+               where, ere this, doubtless, he has been restored to his wonted comfort and happiness;
+               and can brood at his leisure over the beauties of <hi rend="italic">Northern
+                  freedom</hi>, we mean negro freedom.</p>
+            <p>When will the negro learn his simple mission, and his pretended or misguided friends
+               learn wisdom." </p>
+            <p><persName ref="#bill">Bill</persName>'s arrival was hailed as a great triumph by the
+               surrounding slave-owners, especially so when they were made acquainted with his
+               sentiments of Northern negro freedom, and its horrors generally. </p>
+            <p>Never did poor plantations ring out so many doleful changes on the horrors of the
+               North, with <persName ref="#bill">Bill</persName>, poor Bill, for a standing example;
+               and very soon he was exalted to a kind of exhorter or lay preacher among his colored
+               brethren. </p>
+            <p>But while the masters were thus teaching over Bill's back the horrors of Northern
+               freedom and the North generally, Bill, wide awake, and adroit in manner, was
+               instructing far more effectively in quite the opposite direction. </p>
+            <p>Such an unusual number of slaves decamped that summer, that a convention of the
+               neighboring masters was held to enquire into the cause, and, if possible, provide an
+               immediate remedy. </p>
+            <p>No one, of course, suspected Bill. His notions of Northern negro freedom, and
+               earnestness in the interest of the master, continually and publicly expressed, placed
+               him too high in general estimation for that. Still decade after decade of the "Boys"
+               foolishly forsook their kind masters for the <cb/> unknown regions of the hated
+               North. </p>
+            <p>In course of time <persName ref="#bill">Bill</persName> was also again missing. Yes,
+               Bill, the faithful, penitent Bill, the negro exhorter. </p>
+            <p>Nothing could exceed the consternation, chagrin and rage among the plantation owners
+               generally, and Bill's especially, when it became fully established that Bill, the
+               least suspected, had, for the second time, betook to his heels for parts to them
+               unknown. </p>
+            <p>Pursuit, hot pursuit, was the cry that ran along the line of the plantations, and two
+               of the most celebrated, wreckless and daring of the negro catchers quickly
+               volunteered to overtake and return, dead or alive, this daring and dangerous negro. </p>
+            <p>Without a moment's loss of time these fellows set out and pushed forward. </p>
+            <p>For a correct account of what followed from this point of our story we must extract
+               from Bill's own narrative of the affair. He says, <said>"Time and experience had
+                  taught me many things, and I was this time fully prepared for any and every
+                  emergency. I started under cover of a stormy winter's night and proceeded many
+                  miles ere the sun of another day broke the darkness. I then refreshed and rested
+                  myself in a well-retired place, resuming my journey soon after the next
+                  night-fall. After some three hours' travel, came to a cross-bridge overhung by
+                  large beechen trees, with thick underbrush lining the sides of the deep chasm
+                  beneath.</said></p>
+            <p>
+               <said>"Just as I had got about midway of this bridge, I descried through the thick
+                  darkness two men stealthily approaching from an opposite direction, and so close
+                  upon me that retreat was useless.</said>
+            </p>
+            <p>
+               <said>"'Stand!' demanded the well-known voice of a most dreaded negro catcher, and
+                  quickly made for me, while I, with the rapidity of lightning almost, leveled my
+                  pistol at the other and remoter man, who in an instant rolled heavily over on the
+                  bridge without a groan.</said>
+            </p>
+            <p>
+               <said>"The first was now so near that there was nothing left for either of us but to
+                  close in the deadly hand-to-hand struggle He, though a powerful man and used to
+                  conflict, finding his inability to overpower me, endeavored to draw his pistol on
+                  me, which I, either by tact or superiority of strength, averted, and it harmlessly
+                  exploded in the air. </said>
+            </p>
+            <p>
+               <said>"It was now my turn. Liberty or death <pb n="324"/><cb/> with me, and life or
+                  death with him. The struggle was a fearful one. It was up, it was down; it was
+                  down, it was up.</said>
+            </p>
+            <p>
+               <said>"Not a word was spoken; not a murmur, not a whisper escaped either of us. He
+                  got me round the waist, I him by the throat. It was dark; but yet through that
+                  darkness so livid and changed became his countenance, and so glaring his eyes (I
+                  can see him even now), that, though knowing him well, it seemed it was the very
+                  devil with which I was dealing.</said>
+            </p>
+            <p>"<said>But I held my grasp, increasing it only in tightness. I neither could, nor
+                  cared, to do otherwise.</said>
+            </p>
+            <p>"<said>There seemed to be a charm upon me as I gazed into his livid face; a spell
+                  that worked upon my fingers as I held him.</said>
+            </p>
+            <p>
+               <said>"His limbs, which, for a moment, assumed the rigidity of iron, suddenly
+                  relaxed; his eyes, like an exploded lamp, suddenly flared out; his vice-like arms
+                  which bound me fell down. A strange emotion came over me. I knew nothing but one
+                  convulsive effort.</said>
+            </p>
+            <p>
+               <said>"I then listened: I heard a loud splash some thirty or forty feet below, which
+                  told me all I wished to know.</said>
+            </p>
+            <p>
+               <said>"Seized with the same spirit, I ran to the other lifeless carcase and gave it
+                  one heave, and with another splash it followed its mate to where no tales are
+                  told, and <cb/>where earthly quiet reigns supreme." </said>
+            </p>
+            <p><said>"I had decided the question of my own liberty,"</said> says he, <said>"this
+                  time, before I left the plantation; and because God had im planted the principles
+                  of liberty in my bosom, both in seeking and maintaining that liberty, I had
+                  determined to remove every obstacle that obtruded itself between me and
+               it.</said></p>
+            <p>
+               <said>"I did, therefore, nothing more than my duty to myself, to my manhood, and to
+                  my God."</said>
+            </p>
+            <p><said>"After the incident of the bridge which I have narrated,"</said> says he,
+                  <said> "no further impediments came in my way, and I soon found myself North,
+                  where I had determined, come what would, to take up my abode."</said>
+            </p>
+            <p>It was on the morning on which our story commences, when <persName ref="#bill"
+                  >Bill</persName> entered our Gallery under the excitement we have described, and
+               exclaiming, <said><hi rend="italic">"I have seen him, have seen him!"</hi></said>
+               that the man who claimed to be his owner passed him in the street, and fortunate for
+               that man that he did not see <persName ref="#bill">Bill</persName>; fortunate for the
+               community that they passed and did not meet. </p>
+            <p>The portrait of our sable hero, in all the flush of manhood, hangs on the north side
+               of the Gallery, for the inspection of the curious.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
